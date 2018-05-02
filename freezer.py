@@ -3,6 +3,7 @@ import os
 from flask_frozen import Freezer
 from views import app
 
+FREEZER_DESTINATION_IGNORE = ['navody']
 LANGUAGES = (
     {'lang_code': 'sk'},
     {'lang_code': 'en'}
