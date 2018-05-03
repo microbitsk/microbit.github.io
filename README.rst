@@ -54,6 +54,51 @@ Pokiaľ nájdete chyby, prosím nahláste ich! Vytvorte prosím issue na GitHube
 `<https://riot.python.sk/#/room/#general:python.sk>`_, alebo nám napíšte email: `info@microbit.sk <mailto:info@microbit.sk>`_.
 
 
+Preklady
+--------
+
+Translations are made with `Flask-Babel <https://pythonhosted.org/Flask-Babel/>`_. All translations are located in ``translations`` directory, update ``messages.po`` with your translations messages.
+
+- collect translation strings from Flask app::
+
+    pybabel extract -F babel.cfg -o messages.pot .
+
+- update translation ``messages.po`` files with collected translation strings::
+
+    pybabel update -i messages.pot -d translations
+
+- compile translated messages and generate ``messages.po`` files::
+
+    pybabel compile -d translations
+
+
+Generate static site
+--------------------
+
+`Frozen-Flask <https://pythonhosted.org/Frozen-Flask/>`_ freezes a Flask application into a set of static files. The result can be hosted without any server-side software other than a traditional web server.
+
+- generate static files, and you can find them in ``docs`` directory::
+
+    python freezer.py
+
+- verify the generated result in browser (http://127.0.0.1:8000/en/index.html)::
+
+    cd docs
+    python -m SimpleHTTPServer 8000
+
+
+Continuous Deployment
+---------------------
+
+Anything committed to master branch will be automatically deployed on live server. Live site contain only generated static site in ``build`` directory.
+
+
+Deployment
+----------
+
+Webstránka je hostovana na GitHub Pages. Vygenerovana
+
+
 Webové odkazy
 -------------
 
@@ -66,10 +111,10 @@ Licencia
 
 MIT licencia pre kód (GitHub repo), CC-BY pre ostatný obsah (pokiaľ nie je stanovené ináč). Viac informácií o licenciách je v súbore LICENSE.
 
------------------
 
 micorbit:Slovakia Website
-####################
+#########################
+
 
 `micorbit:Slovakia Website <https://www.microbit.sk>`_, built with `Flask <http://flask.pocoo.org/>`_ from which static HTML is generated.
 
@@ -121,6 +166,45 @@ We use Python 3 for development. Commands are made for terminal in Linux, and sh
 
 
 If you find some bug please do report it! Create issue at our GitHub. Feel free to submit suggestions vie GitHub issues as well, or join us in our `public chat <https://riot.python.sk/#/room/#general:python.sk>`_ or send us an email: `info@microbit.sk <mailto:info@microbit.sk>`_.
+
+
+Translations
+------------
+
+Translations are made with `Flask-Babel <https://pythonhosted.org/Flask-Babel/>`_. All translations are located in ``translations`` directory, update ``messages.po`` with your translations messages.
+
+- collect translation strings from Flask app::
+
+    pybabel extract -F babel.cfg -o messages.pot .
+
+- update translation ``messages.po`` files with collected translation strings::
+
+    pybabel update -i messages.pot -d translations
+
+- compile translated messages and generate ``messages.po`` files::
+
+    pybabel compile -d translations
+
+
+Generate static site
+--------------------
+
+`Frozen-Flask <https://pythonhosted.org/Frozen-Flask/>`_ freezes a Flask application into a set of static files. The result can be hosted without any server-side software other than a traditional web server.
+
+- generate static files, and you can find them in ``docs`` directory::
+
+    python freezer.py
+
+- verify the generated result in browser (http://127.0.0.1:8000/en/index.html)::
+
+    cd docs
+    python -m SimpleHTTPServer 8000
+
+
+Continuous Deployment
+---------------------
+
+Anything committed to master branch ``docs`` directory will be automatically deployed on live server. Live site contain only generated static site in ``docs`` directory.
 
 
 Links
