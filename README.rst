@@ -7,7 +7,7 @@ micorbit:Slovensko webstránka
 Ako pomôct?
 -----------
 
-Od komunity pre komunitu. Stránka je spravovaná dobrovoľníkmi a budeme veľmi radi keď sa pridáš. Príspevky su viac než vítané. Prečítaj si našu `prispievateľskú príručku <https://github.com/microbitsk/microbit.sk-website/blob/master/doc/CONTRIBUTING.rst>`_ a pridaj sa k nám!
+Od komunity pre komunitu. Stránka je spravovaná dobrovoľníkmi a budeme veľmi radi keď sa pridáš. Príspevky su viac než vítané. Prečítaj si našu `prispievateľskú príručku <https://github.com/microbitsk/microbit.sk-website/blob/master/CONTRIBUTING.rst>`_ a pridaj sa k nám!
 
 
 Štruktúra projektu
@@ -77,7 +77,7 @@ micorbit:Slovakia Website
 Contributing
 ------------
 
-From community to the community. Contributions are welcome. Read our `contribution guide <https://github.com/microbitsk/microbit.sk-website/blob/master/doc/CONTRIBUTING.rst>`_ and feel free to join, we would love to hear from you.
+From community to the community. Contributions are welcome. Read our `contribution guide <https://github.com/microbitsk/microbit.sk-website/blob/master/CONTRIBUTING.rst>`_ and feel free to join, we would love to hear from you.
 
 
 Project structure
