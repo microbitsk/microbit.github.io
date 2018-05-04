@@ -14,7 +14,7 @@ babel = Babel(app)
 SRC_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 LOGO_PYCON = 'logo/pycon.svg'
 
-LANGS = ('en', 'sk')
+LANGS = ('sk', 'en', 'de', 'hu')
 TIME_FORMAT = '%Y-%m-%dT%H:%M:%S+00:00'
 NOW = datetime.utcnow().strftime(TIME_FORMAT)
 

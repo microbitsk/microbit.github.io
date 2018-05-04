@@ -1,6 +1,7 @@
 # Django stuff
 *.log
-#*.pot
+*.pot
+*.mo
 *.pyc
 local_settings.py
 config.cfg
