@@ -1,0 +1,145 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: microbitsk-website\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2018-05-05 00:07+0200\n"
+"PO-Revision-Date: 2018-05-05 15:47-0400\n"
+"Last-Translator: RicCo386 <richard.kellner@pycon.sk>\n"
+"Language: cs\n"
+"Language-Team: Czech\n"
+"Plural-Forms: nplurals=4; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 3;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.5.3\n"
+"X-Generator: crowdin.com\n"
+"X-Crowdin-Project: microbitsk-website\n"
+"X-Crowdin-Language: cs\n"
+"X-Crowdin-File: /master/translations/en/LC_MESSAGES/messages.po\n"
+
+#: views.py:64
+msgid "microbit.sk"
+msgstr ""
+
+#: templates/body.html:28
+msgid "microbit:Slovensko spravuje SPy o.z."
+msgstr ""
+
+#: templates/body.html:30
+msgid "Poslaním občianskeho združenia SPy (skratka \"Slovak Python\") je podpora vývojárov a používateľov programovacieho jazyka Python. Podporujeme a šírime používanie programovacieho jazyka Python a iných open source technológii a open source myšlienok v našej spoločnosti."
+msgstr ""
+
+#: templates/body.html:33
+msgid "Viac o nás nájdete na stránke našeho občianskeho združenia:"
+msgstr ""
+
+#: templates/body.html:33
+msgid "webstránka SPy o.z."
+msgstr ""
+
+#: templates/body.html:37
+msgid "Nájdeš nás aj tu:"
+msgstr ""
+
+#: templates/body.html:55
+msgid "microbit:Slovensko"
+msgstr ""
+
+#: templates/body.html:71
+msgid "Späť na začiatok"
+msgstr ""
+
+#: templates/body.html:73
+msgid "Stránky vytvorila Python komunita a zapojiť sa môžeš aj ty. Doménu spravuje občianské združenie SPy. Píšte na info@microbit.sk, tweetujte na @pyconsk. "
+msgstr ""
+
+#: templates/body.html:74
+msgid "Fotky: Gareth Halfacree"
+msgstr ""
+
+#: templates/body.html:75
+#, python-format
+msgid "Máme na stránke chybu? Vedel by si túto stránku vylepšiť? Toto je komunitou manažovaná webstránka, <a href=\"%(url)s\" target=\"_blank\">zapoj sa na GitHube</a> a pridaj sa tak ku komunite priaznivcov jazyka Python."
+msgstr ""
+
+#: templates/body.html:78
+msgid "Upraviť túto stránku"
+msgstr ""
+
+#: templates/body.html:81
+msgid "Nahlásiť problém"
+msgstr ""
+
+#: templates/body.html:84
+msgid "Navrhnúť zlepšenie"
+msgstr ""
+
+#: templates/index.html:14
+msgid "Zariadenie BBC micro:bit je programovateľný mikropočítač. Obsahuje vstavanú obrazovku, tlačidlá, senzor pohybu, naklonenia, teploty a svetelnosti. Je výsledkom spoločnej iniciatívy širokého spektra súkromných i verejných organizácií, ktorej cieľom bolo vytvorenie lacnej edukačnej platformy, ktorú zastrešila britská verejnoprávna televízna spoločnosť BBC. Tá v roku 2016 rozdistribuovala jeden micro:bit každému žiakovi siedmeho ročníka v Spojenom Kráľovstve (11 až 12 roční)."
+msgstr ""
+
+#: templates/index.html:25
+msgid "Učíme s Hardvérom"
+msgstr ""
+
+#: templates/index.html:26
+msgid "V rámci projektu Učíme s Hardvérom sa ráta s využitím edukačných dosiek BBC micro:bit, a to kvôli ich jednoduchosti a špecifickému dizajnu pre vzdelávacie účely. Pripájať bude možné rôzne LED pásy, bzučiaky, senzory pohybu, motorčeky, atď. Zároveň budú k dispozícii aj robotické projekty (od line followera po mechanickú robotickú ruku). Projekt je iniciatívou občianskeho združenia SPy, viac info nájdete na tomto odkaze."
+msgstr ""
+
+#: templates/index.html:38
+msgid "Prečo je micro:bit tak populárny?"
+msgstr ""
+
+#: templates/index.html:39
+msgid "V roku 2016 vo Veľkej Británií vláda rozdala každému siedmakovi na základných školách (približne 11 rokov) vývojovú dosku BBC micro:bit (takmer 1 milión kusov). Za prvý polrok projektu sa 85&#37; učiteľov vyjadrilo, že hardvér na hodinách informatiky spravil výučbu pre žiakov zaujímavejšou a až 90&#37; žiakov sa po projekte vyjadrilo, že naučiť sa programovať je možné úplne pre každého (nie len pre žiakov s informatickým zameraním). U dievčat bol pozorovaný 70&#37; nárast záujmu o informatiku. Približne polovica učiteľov uviedla, že sa po projekte cítili viac sebavedomí v programovaní, a to predovšetkým tí učitelia, ktorí nemali veľa predchádzajúcich skúseností s programovaním."
+msgstr ""
+
+#: templates/index.html:51
+msgid "Microbit.sk - Semináre"
+msgstr ""
+
+#: templates/index.html:52
+msgid "Mnoho učiteľov sa obáva komplikovanosti vyučovania hardvéru, a to pritom úplne zbytočne. Rozsvietiť LED pásik, odmerať teplotu či dokonca naprogramovať si vlastného robota sa v skutočnosti dá naučiť v priebehu niekoľkých vyučovacích hodín. Svedčí o tom aj fakt, že BBC micro:bit plošne rozdávali 11-12 ročným žiakom."
+msgstr ""
+
+#: templates/index.html:53
+msgid "Pravidelne organizujeme semináre pre učiteľov základných a stredných škôl, na ktorých si predstavíme zariadenie BBC micro:bit a jeho využiteľnosť na hodinách informatiky. Ak máte záujem o zorganizovanie semináru aj vo vašom meste, neváhajte nás kedykoľvek kontaktovať."
+msgstr ""
+
+#: templates/index.html:64
+msgid "Obsah semináru"
+msgstr ""
+
+#: templates/index.html:65
+msgid "Vyskúšame si prácu v online prostredí, v ktorom vieme programovať micro:bit bez nutnosti inštalácie softvéru na počítači a následne prejdeme do prostredia “Mu”, ktoré je využiteľné nie len pre micro:bit, ale aj ako alternatíva k IDLE. Programovať budeme pomocou Blockly a MicroPythonu."
+msgstr ""
+
+#: templates/index.html:66
+msgid "Na seminári začneme jednoduchšími úlohami, ktoré využívajú len vbudované senzory zariadenia a následne prejdeme k pripájaniu externých súčiastok, vďaka ktorým je možné vytvárať väčšie projekty s presahmi do iných predmetov ako napríklad fyzika, biológia alebo výtvarná výchova. Príkladmi takýchto projektov môže byť automatizovaný kvetináč, vlastná meteostanica či domáci bezpečnostný alarm."
+msgstr ""
+
+#: templates/index.html:77
+msgid "Microbit.sk - Materiály"
+msgstr ""
+
+#: templates/index.html:78
+msgid "MicroPython dokumentácia pre micro:bit"
+msgstr ""
+
+#: templates/index.html:79
+#, python-format
+msgid "<a href=\"%(url)s\" target=\"_blank\">Preklad oficiálnej MicroPython dokumentácie</a> pre zariadenie micro:bit."
+msgstr ""
+
+#: templates/index.html:80
+msgid "Seminár: Začíname s micro:bitmi pre učiteľov"
+msgstr ""
+
+#: templates/index.html:81
+msgid "Materiál k učiteľskému semináru určený pre učiteľov, ktorí majú slabé alebo žiadne skúsenosti s micro:bitmi."
+msgstr ""
+
+#: templates/index.html:92
+msgid "Kontakt"
+msgstr ""
+
