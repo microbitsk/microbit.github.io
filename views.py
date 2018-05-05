@@ -143,12 +143,12 @@ def sitemap():
                     if alt_lang != lang:
                         alternate.append({
                             'lang': alt_lang,
-                            'url': domain + rule.rule.replace('<lang_code>', alt_lang)
+                            'url': domain + rule.rule.replace('<lang_code>', alt_lang).replace('index.html', '')
                         })
 
                 sitemap_data = SITEMAP.get(indx, SITEMAP_DEFAULT)
                 pages.append({
-                    'loc': domain + rule.rule.replace('<lang_code>', lang),
+                    'loc': domain + rule.rule.replace('<lang_code>', lang).replace('index.html', ''),
                     'alternate': alternate,
                     'lastmod': get_lastmod(rule, sitemap_data),
                     'freq': sitemap_data['freq'],
