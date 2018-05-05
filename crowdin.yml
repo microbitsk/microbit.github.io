@@ -9,6 +9,7 @@ files:
         hu: en
         ru-UA: en
         de: en
+        en: en
   - source: CONTRIBUTING.rst
     translation: /%file_name%_%two_letters_code%.%file_extension%
     languages_mapping:
@@ -17,3 +18,4 @@ files:
         hu: en
         ru-UA: en
         de: en
+        en: en
