@@ -5,17 +5,17 @@ files:
     translation: /%file_name%_%two_letters_code%.%file_extension%
     languages_mapping:
       two_letters_code:
-        cs: en
+        en: en
         hu: en
         ru-UA: en
         de: en
-        en: en
+        cs: en
   - source: CONTRIBUTING.rst
     translation: /%file_name%_%two_letters_code%.%file_extension%
     languages_mapping:
       two_letters_code:
-        cs: en
+        en: en
         hu: en
         ru-UA: en
         de: en
-        en: en
+        cs: en
