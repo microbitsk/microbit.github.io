@@ -1,46 +1,46 @@
-micorbit:Slovensko webstránka
+micorbit:Slovakia website
 #############################
 
 .. image:: https://d322cqt584bo4o.cloudfront.net/microbitsk-website/localized.svg
 
-`Switch README.rst to English <https://github.com/microbitsk/microbit.sk-website/blob/master/README_en.rst>`_
+`Zobraziť README.rst v Slovenčine <https://github.com/microbitsk/microbit.sk-website/blob/master/README.rst>`_
 
-`Webová stranka microbit:Slovensko <https://www.microbit.sk>`_, založená na frameworku `Flask <http://flask.pocoo.org/>`_, z ktorého sa vygeneruje statické HTML.
+`micorbit:Slovakia Website <https://www.microbit.sk>`_, built with `Flask <http://flask.pocoo.org/>`_ from which static HTML is generated.
 
-Ako pomôct?
------------
+Contributing
+------------
 
-Od komunity pre komunitu. Stránka je spravovaná dobrovoľníkmi a budeme veľmi radi keď sa pridáš. Príspevky su viac než vítané. Prečítaj si našu `prispievateľskú príručku <https://github.com/microbitsk/microbit.sk-website/blob/master/CONTRIBUTING.rst>`_ a pridaj sa k nám!
+From community to the community. Website is managed by volunteers and we'll be happy if you'll join us. Contributions are welcome. Read our `contribution guide <https://github.com/microbitsk/microbit.sk-website/blob/master/CONTRIBUTING_en.rst>`_ and feel free to join, we would love to hear from you!
 
 
-Štruktúra projektu
+Project structure
 ------------------
 
 **1 branch**:
 
-- ``master`` - Flask aplikácia, šablony, statické súbory.
+- ``master`` - the Flask app, templates, static files.
 
-**Adresare**
+**Directories**
 
-- ``root`` - Flask aplikácia je koreňovom adresáry.
-- ``docs`` - Vygenerovaná statická `webová stranka microbit:Slovensko <https://www.microbit.sk>`_. Neditujte súbory v tomto adresáry, lebo budú pregenerované! Postup na vygenerovanie je popísany nižšie.
+- ``root`` - Flask app is in root directory.
+- ``docs`` - Generated static `website microbit:Slovakia <https://www.microbit.sk>`_. Do not edit files in this directory, they will be regenerated! Read below how to generate.
 
 
-Inštalácia
+Installation
 ----------
 
-Pre vývoj používame Python 3. Príkazy su pre terminál v Linuxe, ale mali by fungovať aj pre Mac OS.
+We use Python 3 for development. Commands are made for terminal in Linux, and should work in Mac OS.
 
-- Naklonujeme si repozitár lokálne ku sebe::
+- clone repository locally::
 
     git clone https://github.com/microbitsk/microbit.sk-website
     cd microbit.sk-website
 
-- Vytvoríme si Python virtualné prostredie (modul venv je súčasť Python 3) a nainštalujeme všetky potrebné závislosti::
+- creates a virtual environment (module venv is part of Python 3) and installs all requirements::
 
     python3 -m venv envs3
 
-- Aktivujeme Python virtuálne prostredie::
+- activate virtual environments::
 
     source envs3/bin/activate
 
@@ -48,12 +48,12 @@ Pre vývoj používame Python 3. Príkazy su pre terminál v Linuxe, ale mali by
 
     pip install -r requirements.txt
 
-- Spustíme Flask server a prípadne otvoríme vo webovom prehliadači (http://127.0.0.1:5000)::
+- start flask server, and you can view it in the browser (http://127.0.0.1:5000)::
 
     python views.py
 
 
-Pokiaľ nájdete chyby, prosím nahláste ich! Vytvorte prosím issue na GitHube. Ak máte nápad na zlepšenie, môžete vytvoriť issue na GitHube, prípadne nás navštívte na našom verejnom chate
+If you find some bug please do report it! Create an issue on our GitHub. Ak máte nápad na zlepšenie, môžete vytvoriť issue na GitHube, prípadne nás navštívte na našom verejnom chate
 `<https://riot.python.sk/#/room/#general:python.sk>`_, alebo nám napíšte email: `info@microbit.sk <mailto:info@microbit.sk>`_.
 
 
