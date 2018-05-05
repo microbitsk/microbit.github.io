@@ -14,6 +14,6 @@ files:
     languages_mapping:
       two_letters_code:
         cs: en
-        de: en
-        ru-UA: en
         hu: en
+        ru-UA: en
+        de: en
