@@ -10,9 +10,9 @@
     <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='css/python.css') }}" rel="stylesheet">
     {% for lang in langs %}{% if lang != lang_code %}
-    <link rel="alternate" href="https://microbit.sk{{ request.path|replace('/'+lang_code, '/'+lang, 1) }}" hreflang="{{ lang }}">
+    <link rel="alternate" href="https://{{ CNAME }}{{ request.path|replace('/'+lang_code, '/'+lang, 1) }}" hreflang="{{ lang }}">
     {% endif %}{% endfor %}
-    <link rel="canonical" href="https://microbit.sk{{ request.path|replace('index.html', '') }}"/>
+    <link rel="canonical" href="https://{{ CNAME }}{{ request.path|replace('index.html', '') }}"/>
     {% if redirect_url %}<meta http-equiv="refresh" content="0; URL='{{ redirect_url }}'" />{% endif %}
   </head>
 

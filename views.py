@@ -37,7 +37,7 @@ LDJSON = {
     "@type": "Organization",
     "name": "SPy o.z.",
     "url": "https://"+ CNAME,
-    "logo": "https://"+ CNAM +"/static/img/logo/python.svg",
+    "logo": "https://"+ CNAME +"/static/img/logo/python.svg",
     "sameAs": [
         "https://facebook.com/pyconsk",
         "https://twitter.com/pyconsk",
@@ -68,6 +68,7 @@ def _get_template_variables(**kwargs):
         'logo': LOGO_PYCON,
         'ld_json': LDJSON,
         'langs': LANGS,
+        'CNAME': CNAME,
     }
     variables.update(kwargs)
 
