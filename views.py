@@ -14,7 +14,9 @@ babel = Babel(app)
 SRC_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 LOGO_PYCON = 'logo/pycon.svg'
 
-LANGS = ('sk', 'en', 'de', 'hu')
+# LANGS = ('sk', 'en', 'de', 'hu', 'cs', 'ru')
+LANGS = ('sk', 'en')
+
 TIME_FORMAT = '%Y-%m-%dT%H:%M:%S+00:00'
 NOW = datetime.utcnow().strftime(TIME_FORMAT)
 
@@ -63,7 +65,8 @@ def _get_template_variables(**kwargs):
     variables = {
         'title': gettext('microbit.sk'),
         'logo': LOGO_PYCON,
-        'ld_json': LDJSON
+        'ld_json': LDJSON,
+        'langs': LANGS,
     }
     variables.update(kwargs)
 
