@@ -53,26 +53,26 @@ We use Python 3 for development. Commands are made for terminal in Linux, and sh
     python views.py
 
 
-If you find some bug please do report it! Create an issue on our GitHub. Ak máte nápad na zlepšenie, môžete vytvoriť issue na GitHube, prípadne nás navštívte na našom verejnom chate
-`<https://riot.python.sk/#/room/#general:python.sk>`_, alebo nám napíšte email: `info@microbit.sk <mailto:info@microbit.sk>`_.
+If you find some bug please do report it! Create an issue on our GitHub. Feel free to submit suggestions via GitHub issues as well, or join us in our public chat
+`<https://riot.python.sk/#/room/#general:python.sk>`_ or send us an email: `info@microbit.sk <mailto:info@microbit.sk>`_.
 
 
-Preklady
+Translations
 --------
 
-Pomôžte nám preložiť stránku do cudzích jazykov. Na preklad nemusíte mať žiadnu znalosť programovania, stačí vedieť iba cudzí jazyk. Preklad zabezpečujeme pomocou služby `crowdin.com <https://crowdin.com/project/microbitsk-website>`_.
+Help us to translate website in more languages. Na preklad nemusíte mať žiadnu znalosť programovania, stačí vedieť iba cudzí jazyk. Preklad zabezpečujeme pomocou služby `crowdin.com <https://crowdin.com/project/microbitsk-website>`_.
 
 
-Vygenerujeme statickú stránku
+Generate static site
 -----------------------------
 
-`Frozen-Flask <https://pythonhosted.org/Frozen-Flask/>`_ "zamrzne" Flask aplikáciu do statických súborov. Výsledok môže byť uložený na servery a zobrazovanú iba pomocou klasického web serveru.
+`Frozen-Flask <https://pythonhosted.org/Frozen-Flask/>`_ freezes a Flask application into a set of static files. The result can be hosted without any server-side software other than a traditional web server.
 
-- vygenerujeme statickú stránku, výsledok je uložený v ``docs`` adresáry::
+- generate static files, and you can find them in ``docs`` directory::
 
     python freezer.py
 
-- preveríme výsledok v prehliladači (http://127.0.0.1:8000/en/index.html)::
+- verify the generated result in browser (http://127.0.0.1:8000/en/index.html)::
 
     cd docs
     python -m SimpleHTTPServer 8000
@@ -81,17 +81,17 @@ Vygenerujeme statickú stránku
 Continuous Deployment
 ---------------------
 
-Všetko čo sa dostane to master vetvy (branch) je automaticky zobrazené na servery. Zobrazuje sa iba vygenerovaná statická stránka ktorá je v ``docs`` adresáry.
+Anything committed to master branch ``docs`` directory will be automatically deployed on live server. Live site contain only generated static site in ``docs`` directory.
 
 
-Webové odkazy
+Links
 -------------
 
 - web: `https://www.microbit.sk <https://www.microbit.sk/>`_, `https://www.micropython.sk <https://www.micropython.sk/>`_, `https://www.python.sk <https://www.python.sk/>`_
 - chat: `https://riot.python.sk <https://riot.python.sk/#/room/#general:python.sk>`_
 - email: `info@microbit.sk <mailto:info@microbit.sk>`_
 
-Licencia 
+License 
 --------
 
-MIT licencia pre kód (GitHub repo), CC-BY pre ostatný obsah (pokiaľ nie je stanovené ináč). Viac informácií o licenciách je v súbore LICENSE (iba po anglicky).
+MIT license for code (GitHub repo), CC-BY for content (if not stated otherwise). For more detail read the LICENSE file.
