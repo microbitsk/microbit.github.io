@@ -11,6 +11,7 @@ app.config['FREEZER_DESTINATION'] = 'docs'
 app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)
 
+CNAME = 'www.microbit.sk'
 SRC_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 LOGO_PYCON = 'logo/pycon.svg'
 
@@ -35,8 +36,8 @@ LDJSON = {
     "@context": "http://schema.org",
     "@type": "Organization",
     "name": "SPy o.z.",
-    "url": "https://www.microbit.sk",
-    "logo": "https://www.microbit.sk/static/img/logo/python.svg",
+    "url": "https://"+ CNAME,
+    "logo": "https://"+ CNAM +"/static/img/logo/python.svg",
     "sameAs": [
         "https://facebook.com/pyconsk",
         "https://twitter.com/pyconsk",
@@ -99,7 +100,7 @@ def landing_index():
 
 @app.route('/CNAME')
 def gh_cname():
-    return 'microbit.sk'
+    return CNAME
 
 
 @app.route('/<lang_code>/index.html')
@@ -124,7 +125,7 @@ def get_lastmod(route, sitemap_entry):
 @app.route('/sitemap.xml', methods=['GET'])
 def sitemap():
     """Generate sitemap.xml. Makes a list of urls and date modified."""
-    domain = 'https://www.microbit.sk'
+    domain = 'https://'+ CNAME
     pages = []
 
     # static pages
