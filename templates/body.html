@@ -10,7 +10,7 @@
     <link href="{{ url_for('static', filename='bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ url_for('static', filename='css/python.css') }}" rel="stylesheet">
     {% for lang in langs %}{% if lang != lang_code %}
-    <link rel="alternate" href="https://{{ CNAME }}{{ request.path|replace('/'+lang_code, '/'+lang, 1) }}" hreflang="{{ lang }}">
+    <link rel="alternate" href="https://{{ CNAME }}{{ request.path|replace('/'+lang_code, '/'+lang, 1)|replace('index.html', '') }}" hreflang="{{ lang }}">
     {% endif %}{% endfor %}
     <link rel="canonical" href="https://{{ CNAME }}{{ request.path|replace('index.html', '') }}"/>
     {% if redirect_url %}<meta http-equiv="refresh" content="0; URL='{{ redirect_url }}'" />{% endif %}
@@ -54,7 +54,7 @@
           </a>
           <nav class="nav nav-masthead justify-content-right">
             {% for lang in langs %}{% if lang != lang_code %}
-            <a class="nav-link navbar-brand d-flex" href="{{ request.path|replace('/'+lang_code, '/'+lang, 1) }}" class="navbar-brand d-flex align-items-right">{{ lang }}</a>
+            <a class="nav-link navbar-brand d-flex" href="{{ request.path|replace('/'+lang_code, '/'+lang, 1)|replace('index.html', '') }}" class="navbar-brand d-flex align-items-right">{{ lang }}</a>
             {% endif %}{% endfor %}
           </nav>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
