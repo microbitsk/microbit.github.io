@@ -13,62 +13,62 @@ Update documentation
 
 `GitHub wiki <https://github.com/pyconsk/www.python.sk/wiki>`_ is used to guide people
 and developers the right way. **Currently it is empty and we have to start somehow...** If you don't know how to do something,
-we probably missed it in our wiki. Dokumentácia je nekonečný proces, takže vítame
-akékoľvek návrhy na zlepšenie, a preto pokojne vytváraj "issues" (problémy) v našom issue trackeri.
+we probably missed it in our wiki. Documentation is a never ending process so we welcome
+any improvement suggestions, feel free to create issues in our bug tracker.
 
-Ak sa ti zdá, že naša dokumentácia by mala byť upravená, alebo se na niečo zabudli,
-kľudne vytvor "pull request", alebo nás kontaktuj prostedníctvom nášho `verejného chatu <https://riot.python.sk/#/room/#general:python.sk>`_.
+If you feel that our documentation needs to be modified or we missed something,
+feel free to submit PR, or get in touch with us at our `public chat <https://riot.python.sk/#/room/#general:python.sk>`_ (if there is Slovak chatter, don't worry just start in English).
 
-Navrhuj zlepšenia alebo oznamuj chyby
+Suggest an improvement or report bug
 --------------------------------------
 
-Všetky issues/problémy sú vedené v `issue trackeri na Githube <https://github.com/microbitsk/microbit.sk-website/issues>`_, ak nájdeš bug, prosím vytvor na to issue, kde v krátkosti popíšeš, v čom je problém.
+All issues are handled by `Github issue tracker <https://github.com/microbitsk/microbit.sk-website/issues>`_, if you've found a bug please create an issue for it.
 
-Ak je niečo, čo ti chýba a chcel/a by si, aby sme to implementovali, choď do `issue trackera na Githube <https://github.com/microbitsk/microbit.sk-website/issues>`_, vytvor issue a označ ju ako "enhancement" = vylepšenie.
+If there is something you are missing, and wish to be implemented in `Github issue tracker <https://github.com/microbitsk/microbit.sk-website/issues>`_, feel free to create an issue and mark it as an enhancement.
 
-Aktualizuj microbit.sk
+Update microbit.sk
 ----------------------
 
-Celý vývoj sa robí na `Githube <https://github.com/microbitsk/microbit.sk-website>`_. Ak sa rozhodneš pracovať na existujúcom probléme, **prosím napíš do issue komentár, že na tom pracuješ, aby neriešilo viac ľudí rovnakoý problém**. Vytvor si vlastný `fork <https://github.com/microbitsk/microbit.sk-website/fork>`_ a **v novej vetve aktualizuj kód**.
-Keď budeš spokojný/á so svojimi úpravami, vytvor `pull request <https://help.github.com/articles/using-pull-requests>`_ a my ho skontrolujeme a pridáme (merge) do existujúceho kódu hneď, ako to bude možné.
-Aby sme si uľahčili život, prosím rob všetku svoju prácu v `samostatnej vetve <https://git-scm.com/book/en/v1/Git-Branching>`_ (ak je tam viacero commitov, použijeme `squash merge <https://github.com/blog/2141-squash-your-commits>`_), ak tvoja zmena rieši nejakú issue,
-v názve vetvy a popise merge requestu by malo byť číslo problému/issue, aby boli na GitHube prelinkované.
+All development is done on `Github <https://github.com/microbitsk/microbit.sk-website>`_. If you decide to work on existing issue, **please mention in the issue comment that you are working on it so other people do not work on the same issue**. Create your `fork <https://github.com/microbitsk/microbit.sk-website/fork>`_ and **in new branch update code**.
+Once you are happy with your changes create `pull request <https://help.github.com/articles/using-pull-requests>`_ and we will review and merge it as soon as we can.
+To make the life easier please do all your work in a `separate branch <https://git-scm.com/book/en/v1/Git-Branching>`_ (if there are multiple commits we do `squash merge <https://github.com/blog/2141-squash-your-commits>`_), if there is an issue for your change
+should include the issue number in the branch name and merge request description so they are linked on GitHub.
 
-Ak hľadáš pomoc
+Getting help
 ---------------
 
-Ak potrebuješ s niečím pomôcť, navštív náš `každomesačný meetup v Bratislave <https://pycon.sk/sk/meetup.html>`_ alebo nám daj vedieť na `verejnom chate <https://riot.python.sk/#/room/#general:python.sk>`_. Kontaktovať nás môžeš aj emailom: `info@microbit.sk <mailto:info@microbit.sk>`_.
+If you look for help, visit our `monthly meetups in Bratislava <https://pycon.sk/sk/meetup.html>`_ or give us a shout at `public chat <https://riot.python.sk/#/room/#general:python.sk>`_ (if there is Slovak chatter, don't worry just start in English). Alternatively, reach us via email: `info@microbit.sk <mailto:info@microbit.sk>`_.
 
-Návod pre developerov
+Developer's HowTo
 =====================
 
-Štandardy vývoja
+Development standards
 ----------------
 
-* Používame PEP8 štandard s predĺženými riadkami na 119 znakov.
+* We do use standard PEP8, with an extended line to 119 characters.
 
-Nastavenie vývojového prostredia
+Development setup
 --------------------------------
 
-Toto je štandardná Flasková aplikácia. Postupuj podľa týchto krokov (na Linuxe, alebo Macu):
+This is standard Flask app. Follow steps in (in Linux, or Mac):
 
-1. ``git clone git@github.com:YOUR-GITHUB-ACCOUNT/microbit.sk-website.git`` naklonuj si vlastný fork repozitára microbit.sk-website
-2. ``cd microbit.sk-website`` vojdi do adresára projektu
-3. ``python3 -m venv envs3`` vytvor virtuálne prostredie, kde môžeš inštalovať všetko potrebné
-4. ``source envs3/bin/activate`` aktivuj virtuálne prostredie
-5. ``pip install -r doc/requirements.txt`` nainštaluj požadované knižnice
-6. ``python views.py`` spusti lokálne vývojový server a skontroluj ho v prehliadači
+1. ``git clone git@github.com:YOUR-GITHUB-ACCOUNT/microbit.sk-website.git`` make a clone of your fork of microbit.sk-website
+2. ``cd microbit.sk-website`` lets go inside the project directory
+3. ``python3 -m venv envs3`` this will create virtual environments for you, where you can install all requirements needed
+4. ``source envs3/bin/activate`` activate virtual environments
+5. ``pip install -r doc/requirements.txt`` install out main dependency
+6. ``python views.py`` start development server, and check the app in browser
 
-Metodika vývoja
+Development methodology
 ---------------
 
-1. Vytvoríš `fork <https://github.com/microbitsk/microbit.sk-website/fork>`_ projektu (toto urobíš iba raz. Neskôr už fork budeš mať vo svojom GitHube, všetok vývoj budeš robiť vo svojom repozitári).
-2. Naklonuj si lokálne vlastný fork ``git clone git@github.com:YOUR-GITHUB-ACCOUNT/microbit.sk-website.git``, pridaj si upstream remote, aby si mohol/mohla sťahovať aktualizácie do vlastného forku ``git remote add upstream https://github.com/microbitsk/microbit.sk-website.git``. Na push do upstreamu nebudeš mať oprávnenie, ale pravidelným sťahovaním ("pull") z upstreamu a pushom do vlastného forku budeš udržovať svoj kód aktuálny a predídeš konfliktom.
-3. Vyber si `chybu/issue <https://github.com/microbitsk/microbit.sk-website/issues>`_ a do komentárov napíš, že budeš na nej pracovať.
-4. Vo svojej lokálne kópii vytvor vetvu: ``git checkout -b XX-nova-funkcia`` (kde XX je číslo chyby).
-5. Kódovanie:
+1. You create a `fork <https://github.com/microbitsk/microbit.sk-website/fork>`_ of the project (you do this only once. Afterward, you already have it in your GitHub, it is your repo in which you are doing all the development).
+2. Clone your fork locally ``git clone git@github.com:YOUR-GITHUB-ACCOUNT/microbit.sk-website.git`` add upstream remote to be able to download updated into your fork ``git remote add upstream https://github.com/microbitsk/microbit.sk-website.git``. You don't have the right to push to upstream, but do regularly pull and push to your fork to keep it up-to-date and prevent conflicts.
+3. Pick up a `issue <https://github.com/microbitsk/microbit.sk-website/issues>`_, and make a comment that you are working on it.
+4. In your local git copy, you create a branch: ``git checkout -b XX-new-feature`` (where XX is issue number).
+5. Coding time:
 
-   * Commituj, ako často potrebuješ. Je úplne jedno, či je kód medzi commitmi rozbitý.
+   * Do commit how often you need. At this point doesn't matter if the code is broken between commits.
    * Ulož svoju zmenu vo svojom repozitári na GitHube. Na server môžeš pushnúť svoj kód koľkokrát len chceš: ``git push origin XX-nova-funkcia``.
    * Merguj kód z upstreamu, kedykoľvek chceš: ``git pull upstream master``. Tu nás nezaujímajú správy o mergovaní, prípadne použi rebase, aby si sa ich zbavil. Nakoniec urobíme `squash merge <https://github.com/blog/2141-squash-your-commits>`_ (v hlavnej vetve na upstreame to bude vyzerať ako jeden commit).
 
