@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: microbitsk-website\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-05-05 00:07+0200\n"
-"PO-Revision-Date: 2018-05-05 16:11-0400\n"
+"PO-Revision-Date: 2018-05-07 16:22-0400\n"
 "Last-Translator: RicCo386 <richard.kellner@pycon.sk>\n"
 "Language: en\n"
 "Language-Team: English\n"
@@ -64,7 +64,7 @@ msgstr ""
 
 #: templates/body.html:78
 msgid "Upraviť túto stránku"
-msgstr ""
+msgstr "Modify this site"
 
 #: templates/body.html:81
 msgid "Nahlásiť problém"
@@ -72,7 +72,7 @@ msgstr "Report a problem"
 
 #: templates/body.html:84
 msgid "Navrhnúť zlepšenie"
-msgstr ""
+msgstr "Suggest an enhancement"
 
 #: templates/index.html:14
 msgid "Zariadenie BBC micro:bit je programovateľný mikropočítač. Obsahuje vstavanú obrazovku, tlačidlá, senzor pohybu, naklonenia, teploty a svetelnosti. Je výsledkom spoločnej iniciatívy širokého spektra súkromných i verejných organizácií, ktorej cieľom bolo vytvorenie lacnej edukačnej platformy, ktorú zastrešila britská verejnoprávna televízna spoločnosť BBC. Tá v roku 2016 rozdistribuovala jeden micro:bit každému žiakovi siedmeho ročníka v Spojenom Kráľovstve (11 až 12 roční)."
