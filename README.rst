@@ -3,7 +3,7 @@ micorbit:Slovensko webstránka
 
 .. image:: https://d322cqt584bo4o.cloudfront.net/microbitsk-website/localized.svg
 
-`Switch README.rst to English <https://github.com/microbitsk/microbit.sk-website/blob/master/README_en.rst>`_
+`Switch README.rst to English <https://github.com/microbitsk/microbit.sk-website/blob/master/translations/en/README.rst>`_
 
 `Webová stranka microbit:Slovensko <https://www.microbit.sk>`_, založená na frameworku `Flask <http://flask.pocoo.org/>`_, z ktorého sa vygeneruje statické HTML.
 
