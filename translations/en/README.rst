@@ -3,7 +3,7 @@ micorbit:Slovakia website
 
 .. image:: https://d322cqt584bo4o.cloudfront.net/microbitsk-website/localized.svg
 
-`Switch README.rst to English <https://github.com/microbitsk/microbit.sk-website/blob/master/translations/en/README.rst>`_
+`Zobraziť README.rst v Slovenčine <https://github.com/microbitsk/microbit.sk-website/blob/master/README.rst>`_
 
 `micorbit:Slovakia Website <https://www.microbit.sk>`_, built with `Flask <http://flask.pocoo.org/>`_ from which static HTML is generated.
 
