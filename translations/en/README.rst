@@ -10,7 +10,7 @@ micorbit:Slovakia website
 Contributing
 ------------
 
-From community to the community. Website is managed by volunteers and we'll be happy if you'll join us. Contributions are welcome. Read our `contribution guide <https://github.com/microbitsk/microbit.sk-website/blob/master/CONTRIBUTING_en.rst>`_ and feel free to join, we would love to hear from you!
+From community to the community. Website is managed by volunteers and we'll be happy if you'll join us. Contributions are welcome. Read our `contribution guide <https://github.com/microbitsk/microbit.sk-website/blob/master/translations/en/CONTRIBUTING.rst>`_ and feel free to join, we would love to hear from you!
 
 
 Project structure
