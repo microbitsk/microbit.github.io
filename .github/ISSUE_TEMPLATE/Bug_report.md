@@ -1,35 +1,35 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+názov: Oznámenie chyby
+popis: Vytvoriť oznam chyby, ktorý nám pomôže vylepšiť stránku
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Popíš chybu**
+Stručný a jasný popis chyby.
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+**Na zreprodukovanie**
+Kroky na reprodukovanie chyby/správania:
+1. Choď na '...'
+2. Klikni na '....'
+3. Skroluj dole na '....'
+4. Popíš chybu
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Očakávané správanie**
+Stručný a jasný popis, aké správanie očakávaš.
 
-**Screenshots**
-If applicable, add screenshots to help explain your problem.
+**Screenshoty**
+Ak sa dá, pridaj k chybe aj screenshoty, pomocou ktorých lepšie vysvetlíš svoj problém..
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+**Desktop (prosím doplň nasledujúce informácie):**
+ - OS: [napr. iOS]
+ - Prehliadač [napr. chrome, safari]
+ - Verzia [napr. 22]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Smartfón (prosím doplň nasledujúce informácie):**
+ - Zariadenie: [napr. iPhone6]
+ - OS: [napr. iOS8.1]
+ - Prehliadač [napr. stock browser, safari]
+ - Verzia [napr. 22]
 
-**Additional context**
-Add any other context about the problem here.
+**Doplnkové informácie/kontext**
+Doplň čo najviac informácií súvisiacich s problémom.
