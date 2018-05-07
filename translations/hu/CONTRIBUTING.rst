@@ -1,5 +1,7 @@
-Contributors Guide
-==================
+Prispievateľská príručka
+========================
+
+`Switch CONTRIBUTING.rst to English <https://github.com/microbitsk/microbit.sk-website/blob/master/translations/en/CONTRIBUTING.rst>`_
 
 Sme vďační za každého dobrovoľníka, ktorý sa zapojí do práce na na web stránke `microbit.sk <https://www.microbit.sk>`_. Ak nám chceš pomôcť, je viacero možností. Podľa toho, čo vieš robiť a tiež čo by si chcel/a robiť (nemusí to byť vývoj), môžeš si vybrať jednu z nasledujúcich aktivít:
 
@@ -11,7 +13,7 @@ Veľmi pomôže, ak budeš šíriť informácie o `microbit.sk <https://github.c
 Aktualizuj dokumentáciu
 -----------------------
 
-`GitHub wiki <https://github.com/pyconsk/www.python.sk/wiki>`_ používame, aby sme usmernili ľudí
+`GitHub wiki <https://github.com/microbitsk/microbit.sk-website/wiki>`_ používame, aby sme usmernili ľudí
 a developerov. **Momentálne je prázdna, ale nejako začať musíme...** Ak nevieš, ako niečo urobiť,
 pravdepodobne sme to zabudli zapísať do wiki. Dokumentácia je nekonečný proces, takže vítame
 akékoľvek návrhy na zlepšenie, a preto pokojne vytváraj "issues" (problémy) v našom issue trackeri.
