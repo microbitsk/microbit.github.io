@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: microbitsk-website\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-05-05 00:07+0200\n"
-"PO-Revision-Date: 2018-05-07 16:22-0400\n"
+"PO-Revision-Date: 2018-05-07 16:30-0400\n"
 "Last-Translator: RicCo386 <richard.kellner@pycon.sk>\n"
 "Language: en\n"
 "Language-Team: English\n"
@@ -129,15 +129,15 @@ msgstr ""
 #: templates/index.html:79
 #, python-format
 msgid "<a href=\"%(url)s\" target=\"_blank\">Preklad oficiálnej MicroPython dokumentácie</a> pre zariadenie micro:bit."
-msgstr ""
+msgstr "<a href=\"%(url)s\" target=\"_blank\">Official MicroPython documentation translation</a> for micro:bit devices."
 
 #: templates/index.html:80
 msgid "Seminár: Začíname s micro:bitmi pre učiteľov"
-msgstr ""
+msgstr "Workshop: Getting started with micro:bits for teachers"
 
 #: templates/index.html:81
 msgid "Materiál k učiteľskému semináru určený pre učiteľov, ktorí majú slabé alebo žiadne skúsenosti s micro:bitmi."
-msgstr ""
+msgstr "Material for teacher's workshop for teachers who have little or no experience with micro:bits."
 
 #: templates/index.html:92
 msgid "Kontakt"
