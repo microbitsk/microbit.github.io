@@ -1,46 +1,46 @@
-micorbit:Slovensko webstránka
+micorbit:Slovakia website
 #############################
 
 .. image:: https://d322cqt584bo4o.cloudfront.net/microbitsk-website/localized.svg
 
-`Switch README.rst to English <https://github.com/microbitsk/microbit.sk-website/blob/master/README_en.rst>`_
+`Zobraziť README.rst v Slovenčine <https://github.com/microbitsk/microbit.sk-website/blob/master/README.rst>`_
 
-`Webová stranka microbit:Slovensko <https://www.microbit.sk>`_, založená na frameworku `Flask <http://flask.pocoo.org/>`_, z ktorého sa vygeneruje statické HTML.
+`micorbit:Slovakia Website <https://www.microbit.sk>`_, built with `Flask <http://flask.pocoo.org/>`_ from which static HTML is generated.
 
-Ako pomôct?
------------
+Contributing
+------------
 
-Od komunity pre komunitu. Stránka je spravovaná dobrovoľníkmi a budeme veľmi radi keď sa pridáš. Príspevky su viac než vítané. Prečítaj si našu `prispievateľskú príručku <https://github.com/microbitsk/microbit.sk-website/blob/master/CONTRIBUTING.rst>`_ a pridaj sa k nám!
+From community to the community. Website is managed by volunteers and we'll be happy if you'll join us. Contributions are welcome. Read our `contribution guide <https://github.com/microbitsk/microbit.sk-website/blob/master/CONTRIBUTING_en.rst>`_ and feel free to join, we would love to hear from you!
 
 
-Štruktúra projektu
+Project structure
 ------------------
 
 **1 branch**:
 
-- ``master`` - Flask aplikácia, šablony, statické súbory.
+- ``master`` - the Flask app, templates, static files.
 
-**Adresare**
+**Directories**
 
-- ``root`` - Flask aplikácia je koreňovom adresáry.
-- ``docs`` - Vygenerovaná statická `webová stranka microbit:Slovensko <https://www.microbit.sk>`_. Neditujte súbory v tomto adresáry, lebo budú pregenerované! Postup na vygenerovanie je popísany nižšie.
+- ``root`` - Flask app is in root directory.
+- ``docs`` - Generated static `website microbit:Slovakia <https://www.microbit.sk>`_. Do not edit files in this directory, they will be regenerated! Read below how to generate.
 
 
-Inštalácia
+Installation
 ----------
 
-Pre vývoj používame Python 3. Príkazy su pre terminál v Linuxe, ale mali by fungovať aj pre Mac OS.
+We use Python 3 for development. Commands are made for terminal in Linux, and should work in Mac OS.
 
-- Naklonujeme si repozitár lokálne ku sebe::
+- clone repository locally::
 
     git clone https://github.com/microbitsk/microbit.sk-website
     cd microbit.sk-website
 
-- Vytvoríme si Python virtualné prostredie (modul venv je súčasť Python 3) a nainštalujeme všetky potrebné závislosti::
+- creates a virtual environment (module venv is part of Python 3) and installs all requirements::
 
     python3 -m venv envs3
 
-- Aktivujeme Python virtuálne prostredie::
+- activate virtual environments::
 
     source envs3/bin/activate
 
@@ -48,31 +48,31 @@ Pre vývoj používame Python 3. Príkazy su pre terminál v Linuxe, ale mali by
 
     pip install -r requirements.txt
 
-- Spustíme Flask server a prípadne otvoríme vo webovom prehliadači (http://127.0.0.1:5000)::
+- start flask server, and you can view it in the browser (http://127.0.0.1:5000)::
 
     python views.py
 
 
-Pokiaľ nájdete chyby, prosím nahláste ich! Vytvorte prosím issue na GitHube. Ak máte nápad na zlepšenie, môžete vytvoriť issue na GitHube, prípadne nás navštívte na našom verejnom chate
-`<https://riot.python.sk/#/room/#general:python.sk>`_, alebo nám napíšte email: `info@microbit.sk <mailto:info@microbit.sk>`_.
+If you find some bug please do report it! Create an issue on our GitHub. Feel free to submit suggestions via GitHub issues as well, or join us in our public chat
+`<https://riot.python.sk/#/room/#general:python.sk>`_ or send us an email: `info@microbit.sk <mailto:info@microbit.sk>`_.
 
 
-Preklady
+Translations
 --------
 
-Pomôžte nám preložiť stránku do cudzích jazykov. Na preklad nemusíte mať žiadnu znalosť programovania, stačí vedieť iba cudzí jazyk. Preklad zabezpečujeme pomocou služby `crowdin.com <https://crowdin.com/project/microbitsk-website>`_.
+Help us to translate website in more languages. Na preklad nemusíte mať žiadnu znalosť programovania, stačí vedieť iba cudzí jazyk. Preklad zabezpečujeme pomocou služby `crowdin.com <https://crowdin.com/project/microbitsk-website>`_.
 
 
-Vygenerujeme statickú stránku
+Generate static site
 -----------------------------
 
-`Frozen-Flask <https://pythonhosted.org/Frozen-Flask/>`_ "zamrzne" Flask aplikáciu do statických súborov. Výsledok môže byť uložený na servery a zobrazovanú iba pomocou klasického web serveru.
+`Frozen-Flask <https://pythonhosted.org/Frozen-Flask/>`_ freezes a Flask application into a set of static files. The result can be hosted without any server-side software other than a traditional web server.
 
-- vygenerujeme statickú stránku, výsledok je uložený v ``docs`` adresáry::
+- generate static files, and you can find them in ``docs`` directory::
 
     python freezer.py
 
-- preveríme výsledok v prehliladači (http://127.0.0.1:8000/en/index.html)::
+- verify the generated result in browser (http://127.0.0.1:8000/en/index.html)::
 
     cd docs
     python -m SimpleHTTPServer 8000
@@ -81,17 +81,17 @@ Vygenerujeme statickú stránku
 Continuous Deployment
 ---------------------
 
-Všetko čo sa dostane to master vetvy (branch) je automaticky zobrazené na servery. Zobrazuje sa iba vygenerovaná statická stránka ktorá je v ``docs`` adresáry.
+Anything committed to master branch ``docs`` directory will be automatically deployed on live server. Live site contain only generated static site in ``docs`` directory.
 
 
-Webové odkazy
+Links
 -------------
 
 - web: `https://www.microbit.sk <https://www.microbit.sk/>`_, `https://www.micropython.sk <https://www.micropython.sk/>`_, `https://www.python.sk <https://www.python.sk/>`_
 - chat: `https://riot.python.sk <https://riot.python.sk/#/room/#general:python.sk>`_
 - email: `info@microbit.sk <mailto:info@microbit.sk>`_
 
-Licencia 
+License 
 --------
 
-MIT licencia pre kód (GitHub repo), CC-BY pre ostatný obsah (pokiaľ nie je stanovené ináč). Viac informácií o licenciách je v súbore LICENSE (iba po anglicky).
+MIT license for code (GitHub repo), CC-BY for content (if not stated otherwise). For more detail read the LICENSE file.
