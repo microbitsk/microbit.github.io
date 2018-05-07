@@ -1,6 +1,6 @@
 ---
-názov: Požiadavka funkcionality
-popis: Navrhni zlepšenie/rozšírenie tohto projektu
+name: Požiadavka funkcionality
+about: Navrhni zlepšenie/rozšírenie tohto projektu
 
 ---
 

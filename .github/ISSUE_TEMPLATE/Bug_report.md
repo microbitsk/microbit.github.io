@@ -1,6 +1,6 @@
 ---
-názov: Oznámenie chyby
-popis: Vytvoriť oznam chyby, ktorý nám pomôže vylepšiť stránku
+name: Oznámenie chyby
+about: Vytvoriť oznam chyby, ktorý nám pomôže vylepšiť stránku
 
 ---
 
