@@ -4,11 +4,11 @@ popis: Vytvoriť oznam chyby, ktorý nám pomôže vylepšiť stránku
 
 ---
 
-**Popíš chybu**
+**Popis problému/chyby**
 Stručný a jasný popis chyby.
 
-**Na zreprodukovanie**
-Kroky na reprodukovanie chyby/správania:
+**Ako reprodukovať**
+Kroky na zopakovanie chyby/správania:
 1. Choď na '...'
 2. Klikni na '....'
 3. Skroluj dole na '....'
