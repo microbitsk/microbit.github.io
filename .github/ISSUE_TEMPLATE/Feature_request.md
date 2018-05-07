@@ -1,17 +1,17 @@
 ---
-name: Feature request
-about: Suggest an idea for this project
+názov: Požiadavka funkcionality
+popis: Navrhni zlepšenie/rozšírenie tohto projektu
 
 ---
 
-**Is your feature request related to a problem? Please describe.**
-A clear and concise description of what the problem is. Ex. I'm always frustrated when [...]
+**Týka sa tvoja funkcionalita nejakého problému? Prosím popíš ho.**
+Stručný a jasný popis problému. Napríklad: prekáža mi, keď [...]
 
-**Describe the solution you'd like**
-A clear and concise description of what you want to happen.
+**Popíš riešenie, ktoré by sa ti páčilo**
+Stručný a jasný popis toho, čo si predstavuješ, že sa má diať.
 
-**Describe alternatives you've considered**
-A clear and concise description of any alternative solutions or features you've considered.
+**Popíš možné alternatívy, ktoré si zvážil/a**
+Stručný a jasný popis alternatívnych riešení alebo funkcionalít, ktoré si zvážil/a.
 
-**Additional context**
-Add any other context or screenshots about the feature request here.
+**Doplňujúce informácie/kontext**
+Doplň akékoľvek informácie, kontext alebo screenshoty o požadovanej funkcionalite.
