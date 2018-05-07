@@ -1,19 +1,19 @@
 Contributors Guide
 ==================
 
-Sme vďační za každého dobrovoľníka, ktorý sa zapojí do práce na na web stránke `microbit.sk <https://www.microbit.sk>`_. Ak nám chceš pomôcť, je viacero možností. Podľa toho, čo vieš robiť a tiež čo by si chcel/a robiť (nemusí to byť vývoj), môžeš si vybrať jednu z nasledujúcich aktivít:
+We are happy with any volunteers involvement in `microbit.sk <https://www.microbit.sk>`_ website. If you would like to help us, there are multiple ways to do so. Depending on your skills and type of work you would like to do (doesn’t have to be development), we encourage you to start with any of the following:
 
-Napíš blog, buď aktívny/a na sociálnych médiách alebo urob prednášku
+Write a blog, get involved on social media or make a talk
 --------------------------------------------------------------------
 
-Veľmi pomôže, ak budeš šíriť informácie o `microbit.sk <https://github.com/microbitsk/microbit.sk-website>`_, alebo sa pripoj k `verejnému chatu <https://riot.python.sk/#/room/#general:python.sk>`_ a môžeš pomáhať ostatným či zdieľať svoje nápady a skúsenosti s ďalšími ľuďmi z komunity. Kontaktovať nás môžeš aj prostredníctvom emailu: `info@microbit.sk <mailto:info@microbit.sk>`_.
+You can help out by spreading the word about `microbit.sk <https://github.com/microbitsk/microbit.sk-website>`_, or joining `public chat <https://riot.python.sk/#/room/#general:python.sk>`_ (if there is Slovak chatter, don't worry just start in English) to help others or share your ideas and experiences with people in the community. Alternatively reach us via email: `info@microbit.sk <mailto:info@microbit.sk>`_.
 
-Aktualizuj dokumentáciu
+Update documentation
 -----------------------
 
-`GitHub wiki <https://github.com/pyconsk/www.python.sk/wiki>`_ používame, aby sme usmernili ľudí
-a developerov. **Momentálne je prázdna, ale nejako začať musíme...** Ak nevieš, ako niečo urobiť,
-pravdepodobne sme to zabudli zapísať do wiki. Dokumentácia je nekonečný proces, takže vítame
+`GitHub wiki <https://github.com/pyconsk/www.python.sk/wiki>`_ is used to guide people
+and developers the right way. **Currently it is empty and we have to start somehow...** If you don't know how to do something,
+we probably missed it in our wiki. Dokumentácia je nekonečný proces, takže vítame
 akékoľvek návrhy na zlepšenie, a preto pokojne vytváraj "issues" (problémy) v našom issue trackeri.
 
 Ak sa ti zdá, že naša dokumentácia by mala byť upravená, alebo se na niečo zabudli,
