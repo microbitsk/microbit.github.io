@@ -10,7 +10,7 @@ micorbit:Slovakia website
 Contributing
 ------------
 
-From community to the community. Website is managed by volunteers and we'll be happy if you'll join us. Contributions are welcome. Read our `contribution guide <https://github.com/microbitsk/microbit.sk-website/blob/master/CONTRIBUTING_en.rst>`_ and feel free to join, we would love to hear from you!
+From community to the community. Website is managed by volunteers and we'll be happy if you'll join us. Contributions are welcome. Read our `contribution guide <https://github.com/microbitsk/microbit.sk-website/blob/master/translations/en/CONTRIBUTING.rst>`_ and feel free to join, we would love to hear from you!
 
 
 Project structure
@@ -44,7 +44,7 @@ We use Python 3 for development. Commands are made for terminal in Linux, and sh
 
     source envs3/bin/activate
 
-- Nainsštalujeme závislosti::
+- install requirements::
 
     pip install -r requirements.txt
 
@@ -60,7 +60,7 @@ If you find some bug please do report it! Create an issue on our GitHub. Feel fr
 Translations
 --------
 
-Help us to translate website in more languages. Na preklad nemusíte mať žiadnu znalosť programovania, stačí vedieť iba cudzí jazyk. Preklad zabezpečujeme pomocou služby `crowdin.com <https://crowdin.com/project/microbitsk-website>`_.
+Help us to translate website in more languages. You don't need to know how to program in order to participate on translations, it is enought to know the language. Translations are done via `crowdin.com <https://crowdin.com/project/microbitsk-website>`_ service.
 
 
 Generate static site

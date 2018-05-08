@@ -71,7 +71,8 @@
 
     <footer class="text-muted">
       <div class="container">
-        <p>{{ _('Stránky vytvorila Python komunita a zapojiť sa môžeš aj ty. Doménu spravuje občianské združenie SPy. Píšte na info@microbit.sk, tweetujte na @pyconsk. ') }}<p>
+        <p>{{ _('Stránky vytvorila Python komunita a zapojiť sa môžeš aj ty. Doménu spravuje občianské združenie SPy.') }}</p>
+        <p>{{ _('Píšte na info@microbit.sk, tweetujte na <a href="https://twitter.com/pyconsk/" target="_blank">@pyconsk</a>.') }}<p>
         <p><small>{{ _('Fotky: Gareth Halfacree') }} <a href="https://www.flickr.com/photos/120586634@N05/albums/72157666779253585" target="_blank">flickr</a></small></p>
         <p><small>{{ _('Máme na stránke chybu? Vedel by si túto stránku vylepšiť? Toto je komunitou manažovaná webstránka, <a href="%(url)s" target="_blank">zapoj sa na GitHube</a> a pridaj sa tak ku komunite priaznivcov jazyka Python.', url='https://github.com/microbitsk/microbit.sk-website') }}</small></p>
         <p class="float-right">
@@ -81,10 +82,10 @@
           <a href="https://github.com/micropythonsk/microbit.sk-website/edit/master/templates/index.html" class="btn btn-outline-secondary btn-sm">
              {{ _('Upraviť túto stránku') }}
           </a>
-            <a href="https://github.com/microbitsk/microbit.sk-website/issues/new?template=Bug_report.md" class="btn btn-outline-secondary btn-sm">
+          <a href="https://github.com/microbitsk/microbit.sk-website/issues/new{% if lang_code == 'sk' %}?template=Bug_report.md{% else %}?template=Bug_report_en.md{% endif %}" class="btn btn-outline-secondary btn-sm">
              {{ _('Nahlásiť problém') }}
           </a>
-          <a href="https://github.com/microbitsk/microbit.sk-website/issues/new?template=Feature_request.md" class="btn btn-outline-secondary btn-sm">
+          <a href="https://github.com/microbitsk/microbit.sk-website/issues/new{% if lang_code == 'sk' %}?template=Feature_request.md{% else %}?template=Feature_request_en.md{% endif%}" class="btn btn-outline-secondary btn-sm">
              {{ _('Navrhnúť zlepšenie') }}
           </a>
         </p>
