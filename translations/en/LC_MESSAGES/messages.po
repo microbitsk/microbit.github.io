@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: microbitsk-website\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-05-05 00:07+0200\n"
-"PO-Revision-Date: 2018-05-07 16:40-0400\n"
+"PO-Revision-Date: 2018-05-08 16:41-0400\n"
 "Last-Translator: RicCo386 <richard.kellner@pycon.sk>\n"
 "Language: en\n"
 "Language-Team: English\n"
@@ -27,7 +27,10 @@ msgstr ""
 
 #: templates/body.html:30
 msgid "Poslaním občianskeho združenia SPy (skratka \"Slovak Python\") je podpora vývojárov a používateľov programovacieho jazyka Python. Podporujeme a šírime používanie programovacieho jazyka Python a iných open source technológii a open source myšlienok v našej spoločnosti."
-msgstr ""
+msgstr "The mission of the SPy civic association (SPy is the abbreviation of \"Slovak Python\", or sometimes we say\n"
+"        \"Slovak Python User Group\") is to support developers and users of the Python programming language. We support\n"
+"        and we spread the programming language Python and other open source technologies and open source ideas in our\n"
+"        society."
 
 #: templates/body.html:33
 msgid "Viac o nás nájdete na stránke našeho občianskeho združenia:"

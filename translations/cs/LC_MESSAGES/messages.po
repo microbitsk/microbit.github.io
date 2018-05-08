@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: microbitsk-website\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-05-05 00:07+0200\n"
-"PO-Revision-Date: 2018-05-05 15:47-0400\n"
+"PO-Revision-Date: 2018-05-08 16:41-0400\n"
 "Last-Translator: RicCo386 <richard.kellner@pycon.sk>\n"
 "Language: cs\n"
 "Language-Team: Czech\n"
@@ -141,5 +141,5 @@ msgstr ""
 
 #: templates/index.html:92
 msgid "Kontakt"
-msgstr ""
+msgstr "Kontakt"
 

@@ -23,7 +23,7 @@ Od komunity pre komunitu. Stránka je spravovaná dobrovoľníkmi a budeme veľm
 **Adresare**
 
 - ``root`` - Flask aplikácia je koreňovom adresáry.
-- ``docs`` - Vygenerovaná statická `webová stranka microbit:Slovensko <https://www.microbit.sk>`_. Neditujte súbory v tomto adresáry, lebo budú pregenerované! Postup na vygenerovanie je popísany nižšie.
+- ``docs`` - Vygenerovaná statická `webová stranka microbit:Slovensko <https://www.microbit.sk>`_. **Neditujte súbory v tomto adresáry, lebo budú pregenerované!** Postup na vygenerovanie je popísany nižšie.
 
 
 Inštalácia
@@ -44,7 +44,7 @@ Pre vývoj používame Python 3. Príkazy su pre terminál v Linuxe, ale mali by
 
     source envs3/bin/activate
 
-- Nainsštalujeme závislosti::
+- Nainštalujeme závislosti::
 
     pip install -r requirements.txt
 
@@ -53,8 +53,7 @@ Pre vývoj používame Python 3. Príkazy su pre terminál v Linuxe, ale mali by
     python views.py
 
 
-Pokiaľ nájdete chyby, prosím nahláste ich! Vytvorte prosím issue na GitHube. Ak máte nápad na zlepšenie, môžete vytvoriť issue na GitHube, prípadne nás navštívte na našom verejnom chate
-`<https://riot.python.sk/#/room/#general:python.sk>`_, alebo nám napíšte email: `info@microbit.sk <mailto:info@microbit.sk>`_.
+Pokiaľ nájdete chyby, prosím nahláste ich! Vytvorte prosím `issue na GitHube <https://github.com/microbitsk/microbit.sk-website/issues?template=Bug_report.md>`_. Ak máte nápad na zlepšenie, môžete vytvoriť `issue na GitHube <https://github.com/microbitsk/microbit.sk-website/issues?template=Feature_request.md>`_, prípadne nás navštívte na našom `verejnom chate <https://riot.python.sk/#/room/#general:python.sk>`_, alebo nám napíšte email: `info@microbit.sk <mailto:info@microbit.sk>`_.
 
 
 Preklady

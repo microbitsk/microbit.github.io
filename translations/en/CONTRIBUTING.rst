@@ -24,9 +24,9 @@ feel free to submit PR, or get in touch with us at our `public chat <https://rio
 Suggest an improvement or report bug
 --------------------------------------
 
-All issues are handled by `Github issue tracker <https://github.com/microbitsk/microbit.sk-website/issues>`_, if you've found a bug please create an issue for it.
+All issues are handled by `Github issue tracker <https://github.com/microbitsk/microbit.sk-website/issues?template=Bug_report.md>`_, if you've found a bug please create an issue for it.
 
-If there is something you are missing, and wish to be implemented in `Github issue tracker <https://github.com/microbitsk/microbit.sk-website/issues>`_, feel free to create an issue and mark it as an enhancement.
+If there is something you are missing, and wish to be implemented in `Github issue tracker <https://github.com/microbitsk/microbit.sk-website/issues?template=Feature_request.md>`_, feel free to create an issue and mark it as an enhancement. Ideally you also start to work on the new functionality (don't forget to write that in the issue comment). If you are not sure, wheater the functionality is necessary or you need guidanance with the implementation, get in touch via our `public chat <https://riot.python.sk/#/room/#general:python.sk>`_. Alternatively, reach us via email: `info@python.sk <mailto:info@microbit.sk>`_. Read more about development below...
 
 Update microbit.sk
 ----------------------
