@@ -23,7 +23,7 @@ Project structure
 **Directories**
 
 - ``root`` - Flask app is in root directory.
-- ``docs`` - Generated static `website microbit:Slovakia <https://www.microbit.sk>`_. **Neditujte súbory v tomto adresáry, lebo budú pregenerované!** Postup na vygenerovanie je popísany nižšie.
+- ``docs`` - Generated static `website microbit:Slovakia <https://www.microbit.sk>`_. **Do not edit files in this directory, because they will be re-generated!** Steps how to generate is written below.
 
 
 Installation
