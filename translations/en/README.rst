@@ -44,7 +44,7 @@ We use Python 3 for development. Commands are made for terminal in Linux, and sh
 
     source envs3/bin/activate
 
-- Nainštalujeme závislosti::
+- install requirements::
 
     pip install -r requirements.txt
 
@@ -53,7 +53,7 @@ We use Python 3 for development. Commands are made for terminal in Linux, and sh
     python views.py
 
 
-If you find some bug please do report it! Vytvorte prosím `issue na GitHube <https://github.com/microbitsk/microbit.sk-website/issues?template=Bug_report.md>`_. Ak máte nápad na zlepšenie, môžete vytvoriť `issue na GitHube <https://github.com/microbitsk/microbit.sk-website/issues?template=Feature_request.md>`_, prípadne nás navštívte na našom `verejnom chate <https://riot.python.sk/#/room/#general:python.sk>`_, alebo nám napíšte email: `info@microbit.sk <mailto:info@microbit.sk>`_.
+If you find some bug please do report it! Please create `issue on GitHube <https://github.com/microbitsk/microbit.sk-website/issues?template=Bug_report_en.md>`_. If you have an idea for an improvement, you can create a `issue on GitHube <https://github.com/microbitsk/microbit.sk-website/issues?template=Feature_request_en.md>`_ or visit us on our `public chat <https://riot.python.sk/#/room/#general:python.sk>`_ or write us an email: `info@microbit.sk <mailto:info@microbit.sk>`_.
 
 
 Translations
