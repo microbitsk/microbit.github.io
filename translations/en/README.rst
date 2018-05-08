@@ -23,7 +23,7 @@ Project structure
 **Directories**
 
 - ``root`` - Flask app is in root directory.
-- ``docs`` - Generated static `website microbit:Slovakia <https://www.microbit.sk>`_. Do not edit files in this directory, they will be regenerated! Read below how to generate.
+- ``docs`` - Generated static `website microbit:Slovakia <https://www.microbit.sk>`_. **Neditujte súbory v tomto adresáry, lebo budú pregenerované!** Postup na vygenerovanie je popísany nižšie.
 
 
 Installation
@@ -44,7 +44,7 @@ We use Python 3 for development. Commands are made for terminal in Linux, and sh
 
     source envs3/bin/activate
 
-- install requirements::
+- Nainštalujeme závislosti::
 
     pip install -r requirements.txt
 
@@ -53,8 +53,7 @@ We use Python 3 for development. Commands are made for terminal in Linux, and sh
     python views.py
 
 
-If you find some bug please do report it! Create an issue on our GitHub. Feel free to submit suggestions via GitHub issues as well, or join us in our public chat
-`<https://riot.python.sk/#/room/#general:python.sk>`_ or send us an email: `info@microbit.sk <mailto:info@microbit.sk>`_.
+If you find some bug please do report it! Vytvorte prosím `issue na GitHube <https://github.com/microbitsk/microbit.sk-website/issues?template=Bug_report.md>`_. Ak máte nápad na zlepšenie, môžete vytvoriť `issue na GitHube <https://github.com/microbitsk/microbit.sk-website/issues?template=Feature_request.md>`_, prípadne nás navštívte na našom `verejnom chate <https://riot.python.sk/#/room/#general:python.sk>`_, alebo nám napíšte email: `info@microbit.sk <mailto:info@microbit.sk>`_.
 
 
 Translations
