@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: microbitsk-website\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2018-05-05 00:07+0200\n"
-"PO-Revision-Date: 2018-05-05 15:47-0400\n"
+"POT-Creation-Date: 2018-05-14 22:48+0200\n"
+"PO-Revision-Date: 2018-05-14 16:50-0400\n"
 "Last-Translator: RicCo386 <richard.kellner@pycon.sk>\n"
 "Language: hu\n"
 "Language-Team: Hungarian\n"
@@ -17,61 +17,69 @@ msgstr ""
 "X-Crowdin-Language: hu\n"
 "X-Crowdin-File: /master/translations/en/LC_MESSAGES/messages.po\n"
 
-#: views.py:64
+#: views.py:67
 msgid "microbit.sk"
 msgstr ""
 
-#: templates/body.html:28
+#: templates/body.html:27
 msgid "microbit:Slovensko spravuje SPy o.z."
 msgstr ""
 
-#: templates/body.html:30
+#: templates/body.html:29
 msgid "Poslaním občianskeho združenia SPy (skratka \"Slovak Python\") je podpora vývojárov a používateľov programovacieho jazyka Python. Podporujeme a šírime používanie programovacieho jazyka Python a iných open source technológii a open source myšlienok v našej spoločnosti."
 msgstr ""
 
-#: templates/body.html:33
+#: templates/body.html:32
 msgid "Viac o nás nájdete na stránke našeho občianskeho združenia:"
 msgstr ""
 
-#: templates/body.html:33
+#: templates/body.html:32
 msgid "webstránka SPy o.z."
 msgstr ""
 
-#: templates/body.html:37
+#: templates/body.html:36
 msgid "Nájdeš nás aj tu:"
 msgstr ""
 
-#: templates/body.html:55
+#: templates/body.html:54
 msgid "microbit:Slovensko"
 msgstr ""
 
-#: templates/body.html:71
-msgid "Späť na začiatok"
-msgstr ""
-
-#: templates/body.html:73
-msgid "Stránky vytvorila Python komunita a zapojiť sa môžeš aj ty. Doménu spravuje občianské združenie SPy. Píšte na info@microbit.sk, tweetujte na @pyconsk. "
-msgstr ""
-
 #: templates/body.html:74
-msgid "Fotky: Gareth Halfacree"
+msgid "Stránky vytvorila Python komunita a zapojiť sa môžeš aj ty. Doménu spravuje občianské združenie SPy."
 msgstr ""
 
 #: templates/body.html:75
+msgid "Píšte na info@microbit.sk, tweetujte na <a href=\"https://twitter.com/pyconsk/\" target=\"_blank\">@pyconsk</a>."
+msgstr ""
+
+#: templates/body.html:76
+msgid "Fotky: Gareth Halfacree"
+msgstr ""
+
+#: templates/body.html:77
 #, python-format
 msgid "Máme na stránke chybu? Vedel by si túto stránku vylepšiť? Toto je komunitou manažovaná webstránka, <a href=\"%(url)s\" target=\"_blank\">zapoj sa na GitHube</a> a pridaj sa tak ku komunite priaznivcov jazyka Python."
 msgstr ""
 
-#: templates/body.html:78
+#: templates/body.html:79
+msgid "Späť na začiatok"
+msgstr ""
+
+#: templates/body.html:83
 msgid "Upraviť túto stránku"
 msgstr ""
 
-#: templates/body.html:81
+#: templates/body.html:86
 msgid "Nahlásiť problém"
 msgstr ""
 
-#: templates/body.html:84
+#: templates/body.html:89
 msgid "Navrhnúť zlepšenie"
+msgstr ""
+
+#: templates/body.html:92
+msgid "Pomôcť s prekladom"
 msgstr ""
 
 #: templates/index.html:14
@@ -142,4 +150,16 @@ msgstr ""
 #: templates/index.html:92
 msgid "Kontakt"
 msgstr ""
+
+#: templates/index.html:93
+msgid "alebo"
+msgstr ""
+
+#~ msgid ""
+#~ "Stránky vytvorila Python komunita a "
+#~ "zapojiť sa môžeš aj ty. Doménu "
+#~ "spravuje občianské združenie SPy. Píšte "
+#~ "na info@microbit.sk, tweetujte na @pyconsk."
+#~ " "
+#~ msgstr ""
 
