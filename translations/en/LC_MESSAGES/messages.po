@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: microbitsk-website\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-05-05 00:07+0200\n"
-"PO-Revision-Date: 2018-05-08 16:41-0400\n"
+"PO-Revision-Date: 2018-05-14 06:51-0400\n"
 "Last-Translator: RicCo386 <richard.kellner@pycon.sk>\n"
 "Language: en\n"
 "Language-Team: English\n"
@@ -99,7 +99,7 @@ msgstr ""
 
 #: templates/index.html:51
 msgid "Microbit.sk - Semináre"
-msgstr ""
+msgstr "Microbit.sk - Workshops"
 
 #: templates/index.html:52
 msgid "Mnoho učiteľov sa obáva komplikovanosti vyučovania hardvéru, a to pritom úplne zbytočne. Rozsvietiť LED pásik, odmerať teplotu či dokonca naprogramovať si vlastného robota sa v skutočnosti dá naučiť v priebehu niekoľkých vyučovacích hodín. Svedčí o tom aj fakt, že BBC micro:bit plošne rozdávali 11-12 ročným žiakom."
