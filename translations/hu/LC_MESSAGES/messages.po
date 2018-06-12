@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: microbitsk-website\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-05-14 22:48+0200\n"
-"PO-Revision-Date: 2018-06-12 12:31-0400\n"
+"PO-Revision-Date: 2018-06-12 12:41-0400\n"
 "Last-Translator: RicCo386 <richard.kellner@pycon.sk>\n"
 "Language: hu\n"
 "Language-Team: Hungarian\n"
@@ -23,7 +23,7 @@ msgstr ""
 
 #: templates/body.html:27
 msgid "microbit:Slovensko spravuje SPy o.z."
-msgstr ""
+msgstr "A microbit:Szlovákiát a SPy polgári egyesület kezeli"
 
 #: templates/body.html:29
 msgid "Poslaním občianskeho združenia SPy (skratka \"Slovak Python\") je podpora vývojárov a používateľov programovacieho jazyka Python. Podporujeme a šírime používanie programovacieho jazyka Python a iných open source technológii a open source myšlienok v našej spoločnosti."
@@ -31,7 +31,7 @@ msgstr ""
 
 #: templates/body.html:32
 msgid "Viac o nás nájdete na stránke našeho občianskeho združenia:"
-msgstr "Többet megtudhat rólunk egyesületünk oldalán:"
+msgstr "Többet megtudhat rólunk polgári egyesületünk honlapján:"
 
 #: templates/body.html:32
 msgid "webstránka SPy o.z."
