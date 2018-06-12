@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: microbitsk-website\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-05-14 22:48+0200\n"
-"PO-Revision-Date: 2018-06-12 12:26-0400\n"
+"PO-Revision-Date: 2018-06-12 12:31-0400\n"
 "Last-Translator: RicCo386 <richard.kellner@pycon.sk>\n"
 "Language: hu\n"
 "Language-Team: Hungarian\n"
@@ -43,7 +43,7 @@ msgstr "Itt is megtalálsz minket:"
 
 #: templates/body.html:54
 msgid "microbit:Slovensko"
-msgstr ""
+msgstr "microbit:Szlovákia"
 
 #: templates/body.html:74
 msgid "Stránky vytvorila Python komunita a zapojiť sa môžeš aj ty. Doménu spravuje občianské združenie SPy."
@@ -124,7 +124,7 @@ msgstr ""
 
 #: templates/index.html:66
 msgid "Na seminári začneme jednoduchšími úlohami, ktoré využívajú len vbudované senzory zariadenia a následne prejdeme k pripájaniu externých súčiastok, vďaka ktorým je možné vytvárať väčšie projekty s presahmi do iných predmetov ako napríklad fyzika, biológia alebo výtvarná výchova. Príkladmi takýchto projektov môže byť automatizovaný kvetináč, vlastná meteostanica či domáci bezpečnostný alarm."
-msgstr ""
+msgstr "A szemináriumon egyszerűbb feladatokkal kezdünk, amik csak a berendezés beépített szenzorait használják, majd később áttérünk a külső komponensekhez való csatlakozásra, amiknek köszönhetően nagyobb, akár más tantárgyakat - mint például a fizika, a biológia vagy a művészeti oktatás - is érintő projektek létrehozása is lehetséges. Ezekre a projektekre jó példa lehet az automatizált virágcserép, a saját időjárás állomás vagy egy otthoni biztonsági riasztó."
 
 #: templates/index.html:77
 msgid "Microbit.sk - Materiály"
