@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: microbitsk-website\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-05-14 22:48+0200\n"
-"PO-Revision-Date: 2018-06-12 11:53-0400\n"
+"PO-Revision-Date: 2018-06-12 12:02-0400\n"
 "Last-Translator: RicCo386 <richard.kellner@pycon.sk>\n"
 "Language: hu\n"
 "Language-Team: Hungarian\n"
@@ -35,7 +35,7 @@ msgstr "Többet megtudhat rólunk egyesületünk oldalán:"
 
 #: templates/body.html:32
 msgid "webstránka SPy o.z."
-msgstr ""
+msgstr "SPy o.z. weboldal"
 
 #: templates/body.html:36
 msgid "Nájdeš nás aj tu:"
@@ -55,7 +55,7 @@ msgstr ""
 
 #: templates/body.html:76
 msgid "Fotky: Gareth Halfacree"
-msgstr ""
+msgstr "Fotók: Gareth Halfacree"
 
 #: templates/body.html:77
 #, python-format
@@ -88,7 +88,7 @@ msgstr ""
 
 #: templates/index.html:25
 msgid "Učíme s Hardvérom"
-msgstr ""
+msgstr "Hardverrel tanítunk"
 
 #: templates/index.html:26
 msgid "V rámci projektu Učíme s Hardvérom sa ráta s využitím edukačných dosiek BBC micro:bit, a to kvôli ich jednoduchosti a špecifickému dizajnu pre vzdelávacie účely. Pripájať bude možné rôzne LED pásy, bzučiaky, senzory pohybu, motorčeky, atď. Zároveň budú k dispozícii aj robotické projekty (od line followera po mechanickú robotickú ruku). Projekt je iniciatívou občianskeho združenia SPy, viac info nájdete na tomto odkaze."
@@ -96,7 +96,7 @@ msgstr ""
 
 #: templates/index.html:38
 msgid "Prečo je micro:bit tak populárny?"
-msgstr ""
+msgstr "Miért olyan népszerű a micro:bit?"
 
 #: templates/index.html:39
 msgid "V roku 2016 vo Veľkej Británií vláda rozdala každému siedmakovi na základných školách (približne 11 rokov) vývojovú dosku BBC micro:bit (takmer 1 milión kusov). Za prvý polrok projektu sa 85&#37; učiteľov vyjadrilo, že hardvér na hodinách informatiky spravil výučbu pre žiakov zaujímavejšou a až 90&#37; žiakov sa po projekte vyjadrilo, že naučiť sa programovať je možné úplne pre každého (nie len pre žiakov s informatickým zameraním). U dievčat bol pozorovaný 70&#37; nárast záujmu o informatiku. Približne polovica učiteľov uviedla, že sa po projekte cítili viac sebavedomí v programovaní, a to predovšetkým tí učitelia, ktorí nemali veľa predchádzajúcich skúseností s programovaním."
