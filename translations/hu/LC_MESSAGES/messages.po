@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: microbitsk-website\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-05-14 22:48+0200\n"
-"PO-Revision-Date: 2018-06-12 12:41-0400\n"
+"PO-Revision-Date: 2018-06-19T05:11:03+0000\n"
 "Last-Translator: RicCo386 <richard.kellner@pycon.sk>\n"
 "Language: hu\n"
 "Language-Team: Hungarian\n"
@@ -51,7 +51,7 @@ msgstr ""
 
 #: templates/body.html:75
 msgid "Píšte na info@microbit.sk, tweetujte na <a href=\"https://twitter.com/pyconsk/\" target=\"_blank\">@pyconsk</a>."
-msgstr ""
+msgstr "Írjon az info@microbit.sk-ra, tweeteljen <a href=\"https://twitter.com/pyconsk/\" target=\"_blank\">@pyconsk</a>-ra."
 
 #: templates/body.html:76
 msgid "Fotky: Gareth Halfacree"
@@ -76,7 +76,7 @@ msgstr "Probléma bejelentése"
 
 #: templates/body.html:89
 msgid "Navrhnúť zlepšenie"
-msgstr ""
+msgstr "Javaslat beküldése"
 
 #: templates/body.html:92
 msgid "Pomôcť s prekladom"
