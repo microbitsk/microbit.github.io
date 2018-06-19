@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: microbitsk-website\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2018-05-14 22:48+0200\n"
-"PO-Revision-Date: 2018-06-19T05:20:49+0000\n"
+"PO-Revision-Date: 2018-06-19T05:51:00+0000\n"
 "Last-Translator: RicCo386 <richard.kellner@pycon.sk>\n"
 "Language: hu\n"
 "Language-Team: Hungarian\n"
@@ -84,7 +84,7 @@ msgstr "Segíts a fordításban"
 
 #: templates/index.html:14
 msgid "Zariadenie BBC micro:bit je programovateľný mikropočítač. Obsahuje vstavanú obrazovku, tlačidlá, senzor pohybu, naklonenia, teploty a svetelnosti. Je výsledkom spoločnej iniciatívy širokého spektra súkromných i verejných organizácií, ktorej cieľom bolo vytvorenie lacnej edukačnej platformy, ktorú zastrešila britská verejnoprávna televízna spoločnosť BBC. Tá v roku 2016 rozdistribuovala jeden micro:bit každému žiakovi siedmeho ročníka v Spojenom Kráľovstve (11 až 12 roční)."
-msgstr ""
+msgstr "A BBC micro:bit berendezés egy programozható mikroszámítógép. Beépített képernyőt, gombokat, továbbá mozgás-, dőlésszög-, hőmérséklet- és fényérzékelő szenzort tartalmaz. Számos olyan magán- és állami szervezet együttműködésének eredménye, melyeknek célja egy olcsó oktatási platform létrehozása volt, melyet BBC közszolgálati televízió fedezett. A televíziós vállalat 2016-ban minden hetedik osztályos diáknak (11-12 évesek) biztosított egy micro:bit berendezést."
 
 #: templates/index.html:25
 msgid "Učíme s Hardvérom"
