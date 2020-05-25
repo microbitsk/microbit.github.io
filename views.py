@@ -83,21 +83,19 @@ def _get_template_variables(**kwargs):
     return variables
 
 
+def redirect():
+    template_variables = _get_template_variables(li_index='active')
+    template_variables['redirect_url'] = 'https://ucimeshardverom.sk'
+
+    return render_template('redirect.html', **template_variables)
+
 @app.route('/')
 def landing_page():
-    template_variables = _get_template_variables(li_index='active')
-    template_variables['redirect_url'] = '/%s' % app.config['BABEL_DEFAULT_LOCALE']
-
-    return render_template('index.html', **template_variables)
-
+    return redirect()
 
 @app.route('/index.html')
 def landing_index():
-    template_variables = _get_template_variables(li_index='active')
-    template_variables['redirect_url'] = '/%s/index.html' % app.config['BABEL_DEFAULT_LOCALE']
-
-    return render_template('index.html', **template_variables)
-
+    return redirect()
 
 @app.route('/CNAME')
 def gh_cname():
@@ -106,7 +104,8 @@ def gh_cname():
 
 @app.route('/<lang_code>/index.html')
 def index():
-    return render_template('index.html', **_get_template_variables(li_index='active'))
+#    return render_template('index.html', **_get_template_variables(li_index='active'))
+    return redirect()
 
 
 def get_lastmod(route, sitemap_entry):
@@ -123,7 +122,7 @@ def get_lastmod(route, sitemap_entry):
     return NOW
 
 
-@app.route('/sitemap.xml', methods=['GET'])
+# @app.route('/sitemap.xml', methods=['GET'])
 def sitemap():
     """Generate sitemap.xml. Makes a list of urls and date modified."""
     domain = 'https://'+ CNAME

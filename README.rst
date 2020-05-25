@@ -5,7 +5,7 @@ micorbit:Slovensko webstránka
 
 `Switch README.rst to English <https://github.com/microbitsk/microbit.sk-website/blob/master/translations/en/README.rst>`_
 
-`Webová stranka microbit:Slovensko <https://www.microbit.sk>`_, založená na frameworku `Flask <http://flask.pocoo.org/>`_, z ktorého sa vygeneruje statické HTML.
+`Webová stranka microbit:Slovensko <https://www.microbit.sk>`_, založená na frameworku `Flask <http://flask.pocoo.org/>`_, z ktorého sa vygeneruje statické HTML. Stránka nie je vyvíjaná a je presmerovaná na `https://ucimeshardverom.sk <https://ucimeshardverom.sk>`_
 
 Ako pomôct?
 -----------
@@ -33,8 +33,8 @@ Pre vývoj používame Python 3. Príkazy su pre terminál v Linuxe, ale mali by
 
 - Naklonujeme si repozitár lokálne ku sebe::
 
-    git clone https://github.com/microbitsk/microbit.sk-website
-    cd microbit.sk-website
+    git clone https://github.com/microbitsk/microbit.github.io
+    cd microbit.github.io
 
 - Vytvoríme si Python virtualné prostredie (modul venv je súčasť Python 3) a nainštalujeme všetky potrebné závislosti::
 
@@ -53,7 +53,7 @@ Pre vývoj používame Python 3. Príkazy su pre terminál v Linuxe, ale mali by
     python views.py
 
 
-Pokiaľ nájdete chyby, prosím nahláste ich! Vytvorte prosím `issue na GitHube <https://github.com/microbitsk/microbit.sk-website/issues?template=Bug_report.md>`_. Ak máte nápad na zlepšenie, môžete vytvoriť `issue na GitHube <https://github.com/microbitsk/microbit.sk-website/issues?template=Feature_request.md>`_, prípadne nás navštívte na našom `verejnom chate <https://riot.python.sk/#/room/#general:python.sk>`_, alebo nám napíšte email: `info@microbit.sk <mailto:info@microbit.sk>`_.
+Pokiaľ nájdete chyby, prosím nahláste ich! Vytvorte prosím `issue na GitHube <https://github.com/microbitsk/microbit.github.io/issues?template=Bug_report.md>`_. Ak máte nápad na zlepšenie, môžete vytvoriť `issue na GitHube <https://github.com/microbitsk/microbit.github.io/issues?template=Feature_request.md>`_, alebo nám napíšte email: `info@python.sk <mailto:info@python.sk>`_.
 
 
 Preklady
@@ -87,8 +87,7 @@ Webové odkazy
 -------------
 
 - web: `https://www.microbit.sk <https://www.microbit.sk/>`_, `https://www.micropython.sk <https://www.micropython.sk/>`_, `https://www.python.sk <https://www.python.sk/>`_
-- chat: `https://riot.python.sk <https://riot.python.sk/#/room/#general:python.sk>`_
-- email: `info@microbit.sk <mailto:info@microbit.sk>`_
+- email: `info@python.sk <mailto:info@python.sk>`_
 
 Licencia 
 --------
