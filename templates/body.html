@@ -24,12 +24,12 @@
         <div class="container">
           <div class="row">
             <div class="col-sm-8 col-md-7 py-4">
-              <h4 class="text-white">{{ _('microbit:Slovensko spravuje SPy o.z.') }}</h4>
+              <h4 class="text-white">{{ _('www.microbit.sk spravuje SPy o.z.') }}</h4>
               <p class="text-muted">
                 {{ _('Poslaním občianskeho združenia SPy (skratka \"Slovak Python\") je podpora vývojárov a používateľov programovacieho jazyka Python. Podporujeme a šírime používanie programovacieho jazyka Python a iných open source technológii a open source myšlienok v našej spoločnosti.') }}
               </p>
               <p class="text-muted">
-                {{ _('Viac o nás nájdete na stránke našeho občianskeho združenia:') }} <a href="https://spy.python.sk" title="{{ _('webstránka SPy o.z.') }}" class="text-white">https://spy.python.sk</a>
+                {{ _('Viac o nás nájdete na stránke našeho občianskeho združenia:') }} <a href="https://spyoz.eu" title="{{ _('webstránka SPy o.z.') }}" class="text-white">https://spyoz.eu</a>
               </p>
             </div>
             <div class="col-sm-4 offset-md-1 py-4">
@@ -38,9 +38,7 @@
                 <li><a href="https://twitter.com/pyconsk" class="text-white">Twitter</a></li>
                 <li><a href="https://facebook.com/pyconsk" class="text-white">Facebook</a></li>
                 <li><a href="https://www.linkedin.com/company/spy-o--z-" class="text-white">LinkedIn</a></li>
-                <li><a href="https://plus.google.com/u/0/b/114745643590416178453/114745643590416178453/posts" class="text-white">Google+</a></li>
                 <li><a href="https://github.com/micropythonsk" class="text-white">GitHub</a></li>
-                <li><a href="https://riot.python.sk/#/directory" class="text-white">Chat</a></li>
                 <li><a href="mailto:info@microbit.sk" class="text-white">Email</a></li>
               </ul>
             </div>
@@ -51,13 +49,15 @@
         <div class="container d-flex justify-content-between">
           <a href="#" class="navbar-brand d-flex align-items-center">
             <img src="{{ url_for('static', filename='img/logo/python_logo.svg') }}" class="header-logo" alt="Python logo" />
-            <strong>{{ _('microbit:Slovensko') }}</strong>
+            <strong>{{ _('www.microbit.sk') }}</strong>
           </a>
+	  {#
           <nav class="nav nav-masthead justify-content-right">
             {% for lang in langs %}{% if lang != lang_code %}
             <a class="nav-link navbar-brand d-flex" href="{{ request.path|replace('/'+lang_code, '/'+lang, 1)|replace('index.html', '') }}" class="navbar-brand d-flex align-items-right">{{ lang }}</a>
             {% endif %}{% endfor %}
           </nav>
+	  #}
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -68,30 +68,13 @@
     <main role="main">
     {% block content %}{% endblock %}
     </main>
-
+    <br />
     <footer class="text-muted">
       <div class="container">
-        <p>{{ _('Stránky vytvorila Python komunita a zapojiť sa môžeš aj ty. Doménu spravuje občianské združenie SPy.') }}</p>
-        <p>{{ _('Píšte na info@microbit.sk, tweetujte na <a href="https://twitter.com/pyconsk/" target="_blank">@pyconsk</a>.') }}<p>
-        <p><small>{{ _('Fotky: Gareth Halfacree') }} <a href="https://www.flickr.com/photos/120586634@N05/albums/72157666779253585" target="_blank">flickr</a></small></p>
+        <p>{{ _('Stránky vytvorila Python komunita a zapojiť sa môžeš aj ty. Doménu spravuje občianské združenie SPy.') }} 
+	{{ _('Píšte na info@microbit.sk, tweetujte na <a href="https://twitter.com/pyconsk/" target="_blank">@pyconsk</a>.') }}<p>
         <p><small>{{ _('Máme na stránke chybu? Vedel by si túto stránku vylepšiť? Toto je komunitou manažovaná webstránka, <a href="%(url)s" target="_blank">zapoj sa na GitHube</a> a pridaj sa tak ku komunite priaznivcov jazyka Python.', url='https://github.com/microbitsk/microbit.sk-website') }}</small></p>
-        <p class="float-right">
-          <a href="#top" class="btn btn-outline-primary btn-sm">{{ _('Späť na začiatok') }}</a>
-        </p>
-        <p>
-          <a href="https://github.com/micropythonsk/microbit.sk-website/edit/master/templates/index.html" class="btn btn-outline-secondary btn-sm">
-             {{ _('Upraviť túto stránku') }}
-          </a>
-          <a href="https://github.com/microbitsk/microbit.sk-website/issues/new{% if lang_code == 'sk' %}?template=Bug_report.md{% else %}?template=Bug_report_en.md{% endif %}" class="btn btn-outline-secondary btn-sm">
-             {{ _('Nahlásiť problém') }}
-          </a>
-          <a href="https://github.com/microbitsk/microbit.sk-website/issues/new{% if lang_code == 'sk' %}?template=Feature_request.md{% else %}?template=Feature_request_en.md{% endif%}" class="btn btn-outline-secondary btn-sm">
-             {{ _('Navrhnúť zlepšenie') }}
-          </a>
-          <a href="https://crowdin.com/project/bbc-microbit-micropython" class="btn btn-outline-secondary btn-sm">
-             {{ _('Pomôcť s prekladom') }}
-          </a>
-        </p>
+        <p><small>{{ _('Fotky: Gareth Halfacree') }} <a href="https://www.flickr.com/photos/120586634@N05/albums/72157666779253585" target="_blank">flickr</a></small></p>
       </div>
     </footer>
 

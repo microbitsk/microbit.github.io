@@ -91,22 +91,31 @@ def redirect():
 
 @app.route('/')
 def landing_page():
-    return redirect()
+    template_variables = _get_template_variables(li_index='active')
+
+    return render_template('index.html', **template_variables)
 
 @app.route('/index.html')
 def landing_index():
-    return redirect()
+    template_variables = _get_template_variables(li_index='active')
+
+    return render_template('index.html', **template_variables)
 
 @app.route('/CNAME')
 def gh_cname():
     return CNAME
 
-
 @app.route('/<lang_code>/index.html')
 def index():
-#    return render_template('index.html', **_get_template_variables(li_index='active'))
-    return redirect()
+    template_variables = _get_template_variables(li_index='active')
 
+    return render_template('index.html', **template_variables)
+
+@app.route('/<lang_code>/old.html')
+def old():
+    template_variables = _get_template_variables(li_index='active')
+
+    return render_template('old/index.html', **template_variables)
 
 def get_lastmod(route, sitemap_entry):
     """Used by sitemap() below"""
@@ -122,7 +131,7 @@ def get_lastmod(route, sitemap_entry):
     return NOW
 
 
-# @app.route('/sitemap.xml', methods=['GET'])
+@app.route('/sitemap.xml', methods=['GET'])
 def sitemap():
     """Generate sitemap.xml. Makes a list of urls and date modified."""
     domain = 'https://'+ CNAME

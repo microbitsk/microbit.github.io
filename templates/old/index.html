@@ -1,0 +1,104 @@
+{% extends "body.html" %}
+
+{% block content %}
+<section class="jumbotron text-center">
+<div class="container">
+    <img src="{{ url_for('static', filename='img/microbit/26146391212_d21e009360_z.jpg') }}">
+</div>
+</section>
+
+<div class="container">
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">Čo je to micro:bit?</h2>
+        <p class="lead">{{ _('Zariadenie BBC micro:bit je programovateľný mikropočítač. Obsahuje vstavanú obrazovku, tlačidlá, senzor pohybu, naklonenia, teploty a svetelnosti. Je výsledkom spoločnej iniciatívy širokého spektra súkromných i verejných organizácií, ktorej cieľom bolo vytvorenie lacnej edukačnej platformy, ktorú zastrešila britská verejnoprávna televízna spoločnosť BBC. Tá v roku 2016 rozdistribuovala jeden micro:bit každému žiakovi siedmeho ročníka v Spojenom Kráľovstve (11 až 12 roční).') }}</p>
+    </div>
+    <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='img/microbit/26146392882_3f38d988a5_z.jpg') }}" alt="BBC micro:bit image">
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7 order-md-2">
+    <h2 class="featurette-heading">{{ _('Učíme s Hardvérom') }}</h2>
+    <p class="lead">{{ _('V rámci projektu Učíme s Hardvérom sa ráta s využitím edukačných dosiek BBC micro:bit, a to kvôli ich jednoduchosti a špecifickému dizajnu pre vzdelávacie účely. Pripájať bude možné rôzne LED pásy, bzučiaky, senzory pohybu, motorčeky, atď. Zároveň budú k dispozícii aj robotické projekty (od line followera po mechanickú robotickú ruku). Projekt je iniciatívou občianskeho združenia SPy, viac info nájdete na tomto odkaze.') }}</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+        <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='img/microbit/25634091394_146be48282_z.jpg') }}" alt="BBC micro:bit image">
+    </div>
+
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">{{ _('Prečo je micro:bit tak populárny?') }}</h2>
+        <p class="lead">{{ _('V roku 2016 vo Veľkej Británií vláda rozdala každému siedmakovi na základných školách (približne 11 rokov) vývojovú dosku BBC micro:bit (takmer 1 milión kusov). Za prvý polrok projektu sa 85&#37; učiteľov vyjadrilo, že hardvér na hodinách informatiky spravil výučbu pre žiakov zaujímavejšou a až 90&#37; žiakov sa po projekte vyjadrilo, že naučiť sa programovať je možné úplne pre každého (nie len pre žiakov s informatickým zameraním). U dievčat bol pozorovaný 70&#37; nárast záujmu o informatiku. Približne polovica učiteľov uviedla, že sa po projekte cítili viac sebavedomí v programovaní, a to predovšetkým tí učitelia, ktorí nemali veľa predchádzajúcich skúseností s programovaním.') }}</p>
+    </div>
+    <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='img/microbit/25965969530_32e17bb86d_z.jpg') }}" alt="BBC micro:bit image">
+    </div>
+
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">{{ _('Microbit.sk - Semináre') }}</h2>
+        <p class="lead">{{ _('Mnoho učiteľov sa obáva komplikovanosti vyučovania hardvéru, a to pritom úplne zbytočne. Rozsvietiť LED pásik, odmerať teplotu či dokonca naprogramovať si vlastného robota sa v skutočnosti dá naučiť v priebehu niekoľkých vyučovacích hodín. Svedčí o tom aj fakt, že BBC micro:bit plošne rozdávali 11-12 ročným žiakom.') }}<p>
+        <p>{{ _('Pravidelne organizujeme semináre pre učiteľov základných a stredných škôl, na ktorých si predstavíme zariadenie BBC micro:bit a jeho využiteľnosť na hodinách informatiky. Ak máte záujem o zorganizovanie semináru aj vo vašom meste, neváhajte nás kedykoľvek kontaktovať.') }}</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+        <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='img/microbit/26146399942_399dc65ac1_z.jpg') }}" alt="BBC micro:bit image">
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">{{ _('Obsah semináru') }}</h2>
+        <p class="lead">{{ _('Vyskúšame si prácu v online prostredí, v ktorom vieme programovať micro:bit bez nutnosti inštalácie softvéru na počítači a následne prejdeme do prostredia “Mu”, ktoré je využiteľné nie len pre micro:bit, ale aj ako alternatíva k IDLE. Programovať budeme pomocou Blockly a MicroPythonu.') }}</p>
+        <p>{{ _('Na seminári začneme jednoduchšími úlohami, ktoré využívajú len vbudované senzory zariadenia a následne prejdeme k pripájaniu externých súčiastok, vďaka ktorým je možné vytvárať väčšie projekty s presahmi do iných predmetov ako napríklad fyzika, biológia alebo výtvarná výchova. Príkladmi takýchto projektov môže byť automatizovaný kvetináč, vlastná meteostanica či domáci bezpečnostný alarm.') }}</p>
+    </div>
+    <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='img/microbit/26212930836_d5d6990725_z.jpg') }}" alt="BBC micro:bit image">
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">{{ _('Microbit.sk - Materiály') }}</h2>
+        <p class="lead">{{ _('MicroPython dokumentácia pre micro:bit') }}</p>
+        <p>{{ _('<a href="%(url)s" target="_blank">Preklad oficiálnej MicroPython dokumentácie</a> pre zariadenie micro:bit.', url='https://docs.microbit.sk') }}</p>
+        <p class="lead">{{ _('Seminár: Začíname s micro:bitmi pre učiteľov') }}</p>
+        <p>{{ _('Materiál k učiteľskému semináru určený pre učiteľov, ktorí majú slabé alebo žiadne skúsenosti s micro:bitmi.') }}</p>
+    </div>
+    <div class="col-md-5 order-md-1">
+        <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='img/microbit/26238853955_fbe99c2f23_z.jpg') }}" alt="BBC micro:bit image">
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+<div class="row featurette">
+    <div class="col-md-7">
+        <h2 class="featurette-heading">{{ _('Kontakt') }}</h2>
+        <p class="lead">info@microbit.sk {{ _('alebo') }} +421 904 010 424<p>
+    </div>
+    <div class="col-md-5">
+        <img class="featurette-image img-fluid mx-auto" src="{{ url_for('static', filename='img/microbit/26172568111_0c01d33a33_z.jpg') }}" alt="BBC micro:bit image">
+    </div>
+</div>
+
+<hr class="featurette-divider">
+
+</div>
+<!-- /END THE FEATURETTES -->
+{% endblock %}
