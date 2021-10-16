@@ -11,7 +11,7 @@ app.config['FREEZER_DESTINATION'] = 'docs'
 app.jinja_options = {'extensions': ['jinja2.ext.with_', 'jinja2.ext.i18n']}
 babel = Babel(app)
 
-CNAME = 'www.microbit.sk'
+CNAME = 'microbit.sk'
 SRC_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__)))
 LOGO_PYCON = 'logo/pycon.svg'
 
